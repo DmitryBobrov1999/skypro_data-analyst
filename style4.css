@@ -1,0 +1,256 @@
+.newCenter {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.info__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #00aefa;
+  padding-top: 56px;
+  padding-bottom: 24px;
+}
+.info__img {
+  width: 392px;
+  height: 59.5px;
+}
+.info__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-bottom: 32px;
+  width: 960px;
+}
+.info__figure {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 67px;
+}
+.info__smallInfo {
+  background: #c2f5ff;
+}
+.info__fourFigure_one {
+  position: relative;
+  background-image: url(imgInfo/rhombus.png);
+  width: 306px;
+  height: 306px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.info__fourFigure_two {
+  position: relative;
+  background-image: url(imgInfo/triangle.png);
+  width: 260px;
+  height: 289px;
+  background-repeat: no-repeat;
+  text-align: start;
+}
+.info__fourFigure_three {
+  position: relative;
+  background-image: url(imgInfo/special.png);
+  width: 260px;
+  height: 260px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.info__fourFigure_four {
+  position: relative;
+  background-image: url(imgInfo/hexagon.png);
+  width: 287px;
+  height: 260px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.info__smallText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 260px;
+}
+.info__smallText_one {
+  color: #d27714;
+}
+.info__smallText_two {
+  color: #1797cc;
+  padding-left: 17px;
+}
+.info__smallText_three {
+  color: #14a34c;
+}
+.info__smallText_four {
+  color: #a339c0;
+}
+.info__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.05px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #1797cc;
+  opacity: 0.5;
+  position: absolute;
+}
+.info__link_two {
+  color: #1797cc;
+  top: 72.6%;
+  padding-left: 17px;
+}
+.info__link_four {
+  color: #a339c0;
+  top: 75.7%;
+  left: 108px;
+  right: 98px;
+}
+.info__footer {
+  background: #ececec;
+  border-radius: 20px;
+  padding: 32px 40px 32px 40px;
+  margin-bottom: 120px;
+}
+.info__footerTitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-bottom: 8px;
+}
+.info__footerText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.info__form {
+  display: flex;
+  gap: 8px;
+  padding-top: 32px;
+}
+.info__input {
+  font-family: "StratosSkyeng";
+  width: 264px;
+  height: 48px;
+  padding: 12px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.info__input::-moz-placeholder {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.info__input:-ms-input-placeholder {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.info__input::placeholder {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.info__button {
+  background: #fcde00;
+  border-radius: 8px;
+  width: 264px;
+  height: 48px;
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  transition-duration: 0.3s;
+}
+.info__button::-moz-placeholder {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.info__button:-ms-input-placeholder {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.info__button::placeholder {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.info__button:hover {
+  cursor: pointer;
+  background: rgba(252, 223, 0, 0.6235294118);
+}
+.info__miniText {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-top: 11px;
+}/*# sourceMappingURL=style4.css.map */

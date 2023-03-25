@@ -1,0 +1,333 @@
+.skill__main {
+  display: flex;
+  gap: 2px;
+}
+.skill__block {
+  padding-top: 153px;
+}
+.skill__title {
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+  color: #ad61ff;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  width: 585px;
+  padding-bottom: 38px;
+}
+.skill__span {
+  color: #000000;
+}
+.skill__mainBlock {
+  padding: 24px 100px 40px 32px;
+  background: #f9ebff;
+  border-radius: 20px;
+  width: 660px;
+  margin-bottom: 79px;
+}
+.skill__miniTitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #6000c7;
+}
+.skill__miniMark {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #6000c7;
+}
+.skill__textBlock {
+  display: flex;
+  padding-top: 18px;
+}
+.skill__mark {
+  display: flex;
+  gap: 18px;
+}
+.skill__textBlock {
+  display: flex;
+  flex-direction: column;
+  height: 287px;
+  justify-content: space-between;
+}
+.skill__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #6000c7;
+}
+.skill__allImg {
+  padding-top: 153px;
+  position: relative;
+}
+.skill__img {
+  position: absolute;
+}
+.skill__img_1 {
+  left: 72px;
+  top: 109px;
+}
+.skill__img_2 {
+  left: 124px;
+  top: 208px;
+}
+.skill__img_3 {
+  left: 51px;
+  top: 375px;
+}
+.skill__img_4 {
+  left: 2px;
+  top: 384px;
+}
+.skill__img_5 {
+  left: 264px;
+  top: 511px;
+}
+.skill__img_6 {
+  left: 225px;
+  top: 654px;
+}
+.skill__sql {
+  display: flex;
+  gap: 140px;
+}
+.skill__sqlAbout {
+  width: 460px;
+  position: relative;
+}
+.skill__sqlTitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ad61ff;
+}
+.skill__sqlName {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.skill__sqlImg {
+  position: absolute;
+  top: 227px;
+}
+.skill__sqlBlock {
+  height: 459px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skill__sqlModule {
+  display: flex;
+  gap: 18px;
+}
+.skill__special {
+  height: 1px;
+  background: #000000;
+  opacity: 0.2;
+  width: 560px;
+  margin-top: 23px;
+  margin-left: 600px;
+  margin-bottom: 24px;
+}
+.skill__first {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  opacity: 0.4;
+}
+.skill__second {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.skill__analysis {
+  display: flex;
+  gap: 140px;
+}
+.skill__analysisName {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.skill__analysisBlock {
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skill__python {
+  display: flex;
+  gap: 140px;
+  position: relative;
+}
+.skill__pythonBlock {
+  height: 257px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skill__pythonWow {
+  position: absolute;
+  top: 110spx;
+  left: 169px;
+}
+.skill__powerBI {
+  display: flex;
+  gap: 140px;
+}
+.skill__powerBIBlock {
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skill__pythonStat {
+  display: flex;
+  gap: 140px;
+}
+.skill__pythonStatBlock {
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skill__pythonStatName {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.skill__pythonStatImg {
+  position: absolute;
+  top: 134px;
+  left: 13px;
+}
+.skill__pythonStatAbout {
+  width: 460px;
+  position: relative;
+}
+.skill__analytics {
+  display: flex;
+  gap: 140px;
+  padding-bottom: 59px;
+}
+.skill__analyticsBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 170px;
+}
+.skill__footer {
+  padding: 32px 40px 32px 40px;
+  background: #ececec;
+  border-radius: 20px;
+  margin-bottom: 64px;
+}
+.skill__footerTitle {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-bottom: 8px;
+}
+.skill__footerText {
+  width: 990px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-bottom: 32px;
+}
+.skill__footerForm {
+  display: flex;
+  gap: 8px;
+}
+.skill__footerInput {
+  height: 48px;
+  width: 264px;
+  padding: 10px 12px 12px 12px;
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.skill__footerInput::-moz-placeholder {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.skill__footerInput:-ms-input-placeholder {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.skill__footerInput::placeholder {
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.skill__button {
+  background: #fcde00;
+  border-radius: 8px;
+  width: 264px;
+  height: 48px;
+  font-family: "StratosSkyeng";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}/*# sourceMappingURL=style8.css.map */

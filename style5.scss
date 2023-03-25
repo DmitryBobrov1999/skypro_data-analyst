@@ -1,0 +1,211 @@
+.all {
+	&__title {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 72px;
+		line-height: 100%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-bottom: 64px;
+	}
+	&__workshop {
+		background: #f9ebff;
+		border-radius: 20px;
+		padding: 32px;
+		margin-bottom: 72px;
+		display: flex;
+		position: relative;
+		width: 1160px;
+		justify-content: space-between;
+	}
+
+	&__team {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-bottom: 16px;
+	}
+	&__text {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		width: 319px;
+	}
+
+	&__frame {
+		position: absolute;
+		left: 24px;
+		bottom: -20px;
+	}
+
+	&__second {
+		position: relative;
+		width: 728px;
+		height: 428px;
+	}
+
+	&__polygon {
+		background-image: url(imgAll/Polygon.svg);
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 51%;
+		left: 55%;
+		transform: translate(-50%, -50%);
+		width: 114px;
+		height: 114px;
+	}
+
+	&__container {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__video {
+		display: flex;
+		gap: 41px;
+		margin-bottom: 96px;
+	}
+
+	&__point {
+		display: flex;
+		gap: 16px;
+	}
+
+	&__ultraTitle {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-bottom: 16px;
+	}
+	&__miniText {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+
+	&__polygonNew {
+		background-image: url(imgAll/Polygon.svg);
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 48%;
+		left: 53.5%;
+		transform: translate(-50%, -50%);
+		width: 114px;
+		height: 114px;
+	}
+
+	&__homework {
+		display: flex;
+		gap: 40px;
+	}
+
+	&__hometext {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 360px;
+		gap: 16px;
+		margin-bottom: 224px;
+	}
+
+	&__homeminitext {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #ad61ff;
+	}
+
+	&__homeimg {
+		background-repeat: no-repeat;
+	}
+
+	&__bond {
+		display: flex;
+		gap: 16px;
+		margin-bottom: 79px;
+	}
+
+	&__textbond {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	&__crown {
+		width: 139px;
+		height: 90px;
+		margin-right: 10px;
+	}
+
+	&__greentext {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #00a665;
+	}
+	&__margin {
+		margin-left: 24px;
+	}
+
+	&__block {
+		display: flex;
+		gap: 48px;
+		padding: 32px 72px 48px 40px;
+		background: #f9ebff;
+		border-radius: 20px;
+		margin-bottom: 120px;
+	}
+	&__blocktitle {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 125%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		width: 312px;
+	}
+
+	&__blocktext {
+		font-family: 'StratosSkyeng';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		width: 688px;
+	}
+
+	&__pinkSpan {
+		background: #e8befc;
+		text-align: center;
+		background-repeat: no-repeat;
+	}
+}

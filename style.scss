@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'StratosSkyeng';
+	src: url('./fonts/stratosskyengwebregular.woff2') format('woff2');
+	font-style: normal;
+
+	@font-face {
+		font-family: 'skyeng';
+		src: url('./fonts/stratosskyengwebregular.woff') format('woff');
+		font-style: normal;
+	}
+}
+
+body {
+	font-family: 'StratosSkyeng';
+}
+
+.center {
+	padding-left: calc(50% - 580px);
+	padding-right: calc(50% - 580px);
+}
+
+.header {
+	background: #ad61ff;
+	background-position: center;
+	background-size: cover;
+	height: 1032px;
+
+	&__nav {
+		display: flex;
+		padding-top: 12px;
+		justify-content: space-between;
+	}
+
+	&__logo {
+		display: flex;
+		align-items: end;
+		gap: 8px;
+	}
+
+	&__logos {
+		position: relative;
+		margin-right: 5px;
+	}
+
+	&__links {
+		display: flex;
+		gap: 24px;
+		align-items: center;
+	}
+	&__threeRac {
+		display: none;
+	}
+
+	&__link {
+		color: #ffffff;
+		&_logo1 {
+			width: 12.59px;
+			height: 13.79px;
+		}
+		&_logo2 {
+			position: absolute;
+			width: 12.46px;
+			height: 13.79px;
+			left: 7.7px;
+		}
+
+		&_else {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 26px;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			text-decoration: none;
+		}
+
+		&_hover {
+			&:hover {
+				cursor: pointer;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	&__title {
+		margin-top: 60px;
+		display: flex;
+		position: relative;
+		max-width: 1160px;
+	}
+
+	&__smallTitle {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 68px;
+		line-height: 100%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #ffffff;
+		display: flex;
+	}
+
+	&__amazing {
+		transform: rotate(-3deg);
+		word-spacing: -9px;
+		z-index: 1;
+	}
+
+	&__svg {
+		width: 385px;
+		height: 143px;
+		z-index: 0;
+		margin-top: -30px;
+		position: absolute;
+		left: 15.8%;
+	}
+
+	&__main {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 260px;
+		line-height: 60%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #ffffff;
+		padding-bottom: 43px;
+		max-width: 1160px;
+	}
+
+	&__junior {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+		padding-bottom: 27px;
+		max-width: 1160px;
+	}
+
+	&__junText {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 68px;
+		line-height: 100%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #ffffff;
+	}
+
+	&__strelka {
+		display: block;
+	}
+
+	&__tabletStrelka {
+		display: none;
+	}
+	&__smallText {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #ffffff;
+		margin-bottom: 64px;
+	}
+
+	&__description {
+		width: 852px;
+		position: relative;
+	}
+
+	&__span {
+		background: #d97dff;
+	}
+
+	&__secondSvg {
+		width: 167px;
+		height: 25px;
+		position: absolute;
+		right: 2%;
+		bottom: 2%;
+	}
+
+	&__footer {
+		display: flex;
+		gap: 40px;
+	}
+
+	&__button {
+		font-family: 'StratosSkyeng', sans-serif;
+		width: 324px;
+		height: 76px;
+		background: #fcde00;
+		border-radius: 10px;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 40px;
+		text-align: center;
+		letter-spacing: -0.15px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		transition-duration: 0.3s;
+		border: 0;
+
+		&:hover {
+			cursor: pointer;
+			background: #fcdf009f;
+		}
+	}
+
+	&__startWords {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #e8befc;
+	}
+
+	&__startData {
+		font-style: normal;
+		font-size: 32px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #ffffff;
+	}
+}
+
+@import 'style2';
+@import 'style3';
+@import 'style4';
+@import 'style5';
+@import 'style6';
+@import 'style7';
+@import 'style8';
+@import 'style9';
+@import 'style10';
+@import 'style11';
+@import 'style12';
+@import 'tablet';

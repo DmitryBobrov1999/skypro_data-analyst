@@ -1,0 +1,170 @@
+.section__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  margin-top: 56px;
+  width: 960px;
+}
+.section__info {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top: 40px;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+.section__people {
+  display: flex;
+  grid-column: span 6;
+  gap: 32px;
+}
+.section__img {
+  width: 160px;
+  height: 226px;
+}
+.section__about {
+  width: 368px;
+}
+.section__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 105%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.section__whois {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  opacity: 0.3;
+}
+.section__creator {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  margin-top: 16px;
+}
+.section__creatorLink {
+  text-decoration: none;
+  color: #ff6d00;
+}
+.section__creatorLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #000000;
+}
+.section__link {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+}
+.section__social {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ff6d00;
+  text-decoration: none;
+}
+.section__firstLink {
+  display: flex;
+  gap: 12px;
+}
+.section__secondLink {
+  display: flex;
+  gap: 12px;
+}
+.section__thirdLink {
+  display: flex;
+  gap: 12px;
+}
+.section__fourthLink {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.section__eachLink {
+  color: #ff6d00;
+  text-decoration: none;
+}
+.section__eachLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #000000;
+}
+.section__button {
+  background-color: white;
+  font-family: "StratosSkyeng";
+  width: 600px;
+  height: 92px;
+  border: 1px solid #ff6d00;
+  border-radius: 10px;
+  margin-bottom: 64px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  transition-duration: 0.3s;
+}
+.section__button:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+.section__buttonInfo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.15px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ff6d00;
+}
+.section__buttonImg {
+  position: relative;
+  width: 228px;
+  height: 72px;
+  margin-left: 10px;
+}
+.section__buttonFace {
+  width: 72px;
+  height: 72px;
+}
+.section__buttonFace_first {
+  background-image: url(imgSection/button_first.png);
+  position: absolute;
+  z-index: 3;
+}
+.section__buttonFace_second {
+  background-image: url(imgSection/button_second.png);
+  position: absolute;
+  left: 22.8%;
+  z-index: 2;
+}
+.section__buttonFace_third {
+  background-image: url(imgSection/button_third.png);
+  position: absolute;
+  left: 45.6%;
+  z-index: 1;
+}
+.section__buttonFace_fourth {
+  background-image: url(imgSection/button_fourth.png);
+  position: absolute;
+  left: 68.4%;
+  z-index: 0;
+}/*# sourceMappingURL=style2.css.map */

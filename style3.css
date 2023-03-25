@@ -1,0 +1,189 @@
+.about {
+  background: #000;
+}
+.about__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  padding-top: 56px;
+  padding-bottom: 16px;
+}
+.about__span {
+  flex-wrap: wrap;
+  display: flex;
+}
+.about__text {
+  width: 960px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+.about__checkbox {
+  display: none;
+}
+.about__fake {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: #ad61ff;
+  border-radius: 5.75px;
+  position: relative;
+  margin-right: 8px;
+}
+.about__fake_special {
+  margin-right: 0;
+}
+.about__fake::before {
+  content: "";
+  display: block;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15.12px;
+  height: 11.71px;
+  background-image: url(imgAbout/Icon.svg);
+  opacity: 1;
+}
+.about__textSpan {
+  color: #ad61ff;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+.about__skills {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 48px;
+}
+.about__check {
+  width: 496px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.about__eachSkill {
+  display: flex;
+  justify-content: space-between;
+}
+.about__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+}
+.about__skillName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+}
+.about__quantity {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.about__eachQuantity {
+  position: relative;
+}
+.about__eachQuantity_special {
+  margin-top: -9px;
+}
+.about__long {
+  background: #1a1a1a;
+  border-radius: 5px;
+  width: 624px;
+  height: 23px;
+}
+.about__short {
+  background: #4d4d4d;
+  border-radius: 5px;
+  height: 23px;
+  position: absolute;
+  top: 0;
+}
+.about__short_one {
+  width: 523.94px;
+}
+.about__short_two {
+  width: 193.18px;
+}
+.about__short_three {
+  width: 230.7px;
+}
+.about__short_four {
+  width: 250.16px;
+}
+.about__short_five {
+  width: 205.68px;
+}
+.about__short_six {
+  width: 93.11px;
+}
+.about__short_seven {
+  width: 55.59px;
+}
+.about__short_eight {
+  width: 18.07px;
+}
+.about__digit {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: right;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  padding-right: 8px;
+}
+.about__digit_special {
+  display: flex;
+  justify-content: start;
+  padding-left: 26.07px;
+}
+.about__divButton {
+  padding-bottom: 64px;
+}
+.about__button {
+  font-family: "StratosSkyeng";
+  background-color: #000;
+  width: 627px;
+  height: 76px;
+  border: 1px solid #ff6d00;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.15px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ff6d00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.3s;
+}
+.about__button:hover {
+  cursor: pointer;
+  background-color: white;
+}/*# sourceMappingURL=style3.css.map */

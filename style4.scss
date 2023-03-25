@@ -1,0 +1,232 @@
+.newCenter {
+	padding-left: calc(50% - 600px);
+	padding-right: calc(50% - 600px);
+}
+
+.info {
+	&__title {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 72px;
+		line-height: 100%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #00aefa;
+		padding-top: 56px;
+		padding-bottom: 24px;
+	}
+
+	&__img {
+		width: 392px;
+		height: 59.5px;
+	}
+
+	&__text {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-bottom: 32px;
+		width: 960px;
+	}
+
+	&__figure {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 67px;
+	}
+
+	&__smallInfo {
+		background: #c2f5ff;
+	}
+
+	&__fourFigure_one {
+		position: relative;
+		background-image: url(imgInfo/rhombus.png);
+		width: 306px;
+		height: 306px;
+		background-repeat: no-repeat;
+		text-align: center;
+	}
+
+	&__fourFigure_two {
+		position: relative;
+		background-image: url(imgInfo/triangle.png);
+		width: 260px;
+		height: 289px;
+		background-repeat: no-repeat;
+		text-align: start;
+	}
+
+	&__fourFigure_three {
+		position: relative;
+		background-image: url(imgInfo/special.png);
+		width: 260px;
+		height: 260px;
+		background-repeat: no-repeat;
+		text-align: center;
+	}
+
+	&__fourFigure_four {
+		position: relative;
+		background-image: url(imgInfo/hexagon.png);
+		width: 287px;
+		height: 260px;
+		background-repeat: no-repeat;
+		text-align: center;
+	}
+
+	&__smallText {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 260px;
+		&_one {
+			color: #d27714;
+		}
+		&_two {
+			color: #1797cc;
+			padding-left: 17px;
+		}
+		&_three {
+			color: #14a34c;
+		}
+		&_four {
+			color: #a339c0;
+		}
+	}
+	&__link {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 130%;
+		letter-spacing: -0.05px;
+		text-decoration-line: underline;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #1797cc;
+		opacity: 0.5;
+		position: absolute;
+
+		&_two {
+			color: #1797cc;
+			top: 72.6%;
+			padding-left: 17px;
+		}
+		&_four {
+			color: #a339c0;
+			top: 75.7%;
+			left: 108px;
+			right: 98px;
+		}
+	}
+
+	&__footer {
+		background: #ececec;
+		border-radius: 20px;
+		padding: 32px 40px 32px 40px;
+		margin-bottom: 120px;
+	}
+
+	&__footerTitle {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 125%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-bottom: 8px;
+	}
+
+	&__footerText {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 135%;
+		display: flex;
+		align-items: center;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+
+	&__form {
+		display: flex;
+		gap: 8px;
+		padding-top: 32px;
+	}
+
+	&__input {
+		font-family: 'StratosSkyeng';
+		width: 264px;
+		height: 48px;
+		padding: 12px;
+		background: #ffffff;
+		border-radius: 8px;
+		&::placeholder {
+			font-family: 'StratosSkyeng';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+		}
+	}
+
+	&__button {
+		background: #fcde00;
+		border-radius: 8px;
+		width: 264px;
+		height: 48px;
+		font-family: 'StratosSkyeng';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 130%;
+		text-align: center;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		transition-duration: 0.3s;
+		&::placeholder {
+			font-family: 'StratosSkyeng';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 130%;
+			text-align: center;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+		}
+		&:hover {
+			cursor: pointer;
+			background: #fcdf009f;
+		}
+	}
+
+	&__miniText {
+		font-family: 'StratosSkyeng';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-top: 11px;
+	}
+}

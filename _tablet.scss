@@ -1,0 +1,134 @@
+@media (max-width: 1160px) {
+	.center {
+		padding-left: calc(50% - 310px);
+		padding-right: calc(50% - 310px);
+	}
+	.header {
+		height: 736px;
+		&__link {
+			&_hover {
+				display: none;
+			}
+		}
+		&__threeRac {
+			display: block;
+		}
+
+		&__smallTitle {
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #ffffff;
+		}
+		&__svg {
+			width: 157px;
+			height: 55px;
+			z-index: 0;
+			margin-top: -10px;
+			position: absolute;
+			left: 12%;
+		}
+		&__main {
+			font-weight: 400;
+			font-size: 139px;
+			line-height: 60%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #ffffff;
+			padding-bottom: 20px;
+		}
+		&__junText {
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #ffffff;
+		}
+		&__strelka {
+			display: none;
+		}
+		&__tabletStrelka {
+			display: block;
+		}
+		&__junior {
+			display: flex;
+			align-items: baseline;
+			justify-content: space-between;
+			padding-bottom: 32px;
+		}
+		&__description {
+			width: 540px;
+			position: relative;
+		}
+		&__smallText {
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			margin-bottom: 48px;
+		}
+		&__secondSvg {
+			width: 116px;
+			height: 17px;
+			position: absolute;
+			right: -2%;
+			bottom: 2%;
+		}
+		&__button {
+			font-family: 'StratosSkyeng', sans-serif;
+			width: 300px;
+			height: 55px;
+			background: #fcde00;
+			border-radius: 12px;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 135%;
+			text-align: center;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+			transition-duration: 0.3s;
+			border: 0;
+		}
+		&__startWords {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #e8befc;
+		}
+		&__startData {
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 135%;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #ffffff;
+		}
+		&__footer {
+			display: flex;
+			gap: 20px;
+		}
+		&__nav {
+			display: flex;
+			padding-top: 10px;
+			justify-content: space-between;
+		}
+		&__title {
+			margin-top: 50px;
+			display: flex;
+			position: relative;
+		}
+		&__amazing {
+			transform: rotate(-3deg);
+			word-spacing: -4px;
+			z-index: 1;
+		}
+	}
+}

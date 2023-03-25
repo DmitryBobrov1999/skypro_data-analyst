@@ -1,0 +1,137 @@
+.teacher {
+	&__info {
+		display: flex;
+		flex-direction: column;
+		gap: 64px;
+		margin-bottom: 150px;
+	}
+	&__title {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 72px;
+		line-height: 100%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		margin-bottom: 48px;
+	}
+	&__main {
+		display: flex;
+		gap: 40px;
+	}
+	&__creator {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		margin-top: 16px;
+	}
+	&__about {
+		width: 560px;
+	}
+	&__name {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 125%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+	&__whois {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 130%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		opacity: 0.3;
+	}
+
+	&__block {
+		width: 360px;
+		height: 542px;
+		background: #ececec;
+		border-radius: 20px;
+		padding: 32px 40px 40px 40px;
+	}
+	&__freeTitle {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-bottom: 16px;
+	}
+	&__freeText {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 130%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-bottom: 24px;
+	}
+	&__form {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+	&__eachInput {
+		width: 280px;
+		height: 48px;
+		background: #ffffff;
+		border-radius: 8px;
+		padding: 10px 12px 10px 12px;
+		font-family: 'StratosSkyeng';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		&::placeholder {
+			font-family: 'StratosSkyeng';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+		}
+	}
+	&__button {
+		width: 280px;
+		height: 51px;
+		background: #fcde00;
+		border-radius: 8px;
+		font-family: 'StratosSkyeng';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 130%;
+		text-align: center;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+	&__miniText {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-top: 16px;
+	}
+}

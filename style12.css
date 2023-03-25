@@ -1,0 +1,29 @@
+.footer {
+  background: #ad61ff;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.footer__lastMiniLink {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer__other {
+  display: flex;
+  gap: 16px;
+}
+.footer__otherLink {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  text-decoration: none;
+}/*# sourceMappingURL=style12.css.map */

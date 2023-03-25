@@ -1,0 +1,160 @@
+.price {
+	display: flex;
+	justify-content: center;
+	background: #ad61ff;
+	padding-top: 120px;
+	padding-bottom: 151px;
+	&__block {
+		background: #ffffff;
+		border-radius: 20px;
+		width: 560px;
+		padding: 32px 40px 40px 40px;
+	}
+	&__title {
+		font-weight: 400;
+		font-size: 72px;
+		line-height: 100%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-bottom: 32px;
+	}
+	&__miniBlock {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 32px;
+	}
+	&__text {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+	&__mainText {
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 130%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+	&__notMainText {
+		width: 291px;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 130%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+	&__mainPrice {
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+	&__notMainPrice {
+		display: flex;
+		gap: 7.8px;
+		position: relative;
+	}
+	&__discount {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 130%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #ad61ff;
+	}
+	&__discountPrice {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 130%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+	&__line {
+		position: absolute;
+		left: 45.8px;
+		top: 4.04px;
+	}
+
+	&__addText {
+		padding-top: 8px;
+		width: 368px;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 130%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+	&__form {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		padding-top: 24px;
+		padding-bottom: 16px;
+	}
+	&__input {
+		width: 480px;
+		height: 64px;
+		background: #ffffff;
+		border: 1px solid rgba(0, 0, 0, 0.15);
+		border-radius: 8px;
+		width: 480px;
+		height: 64px;
+		font-family: 'StratosSkyeng';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 32px;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #04121b;
+		padding-left: 24px;
+		padding-right: 24px;
+		display: flex;
+		align-items: center;
+		outline: none;
+		&::placeholder {
+			font-family: 'StratosSkyeng';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 32px;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #04121b;
+		}
+	}
+	&__button {
+		width: 480px;
+		height: 64px;
+		background: #fcde00;
+		border-radius: 8px;
+		font-family: 'StratosSkyeng';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 32px;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #04121b;
+		transition-duration: 0.3s;
+		&:hover {
+			cursor: pointer;
+			background: #fcdf0086;
+		}
+	}
+	&__lastText {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+}

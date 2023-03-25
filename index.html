@@ -1,0 +1,1859 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="header center">
+			<div class="header__nav">
+				<div class="header__logo">
+					<a href="index.html" class="header__link">
+						<svg
+							width="84"
+							height="16"
+							viewBox="0 0 84 16"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M0.221025 12.0669C0.870994 12.6788 2.51302 13.3432 4.54845 13.3432C7.31937 13.3432 8.87587 12.2767 8.87587 10.5983C8.87587 8.95481 7.69566 8.27295 5.45498 7.97573L3.62481 7.73097C2.78669 7.60858 2.32487 7.39878 2.32487 7.03163C2.32487 6.54209 3.09457 6.24487 4.66818 6.24487C5.57471 6.24487 6.34441 6.40222 6.65229 6.50713V6.76938C6.65229 7.25891 6.82334 7.43375 7.30226 7.43375H7.8325C8.31142 7.43375 8.48247 7.25891 8.48247 6.76938V5.98262C8.48247 5.3707 8.37984 5.12593 7.64435 4.82871C6.97728 4.56646 5.95101 4.32169 4.3603 4.32169C1.50386 4.32169 0.272339 5.54554 0.272339 7.08408C0.272339 8.51772 1.40123 9.33944 3.64191 9.63666L5.5063 9.88143C6.32731 9.98633 6.82334 10.1262 6.82334 10.6157C6.82334 11.0528 6.22468 11.42 4.82212 11.42C3.18009 11.42 1.94857 11.0004 1.19598 10.4409C0.802576 10.1437 0.494697 10.2486 0.323652 10.6507L0.0670855 11.2451C-0.0526456 11.5424 -0.0184366 11.8396 0.221025 12.0669Z"
+								fill="white"
+							/>
+							<path
+								d="M20.8025 12.3641L18.7158 9.25203C18.596 9.07719 18.3053 8.77997 18.1 8.60514C18.3053 8.39534 18.5105 8.13309 18.6815 7.88832L20.3407 5.31825C20.6315 4.88117 20.5288 4.46156 20.0157 4.46156H19.075C18.6131 4.46156 18.4592 4.5315 18.2197 4.89865L16.7316 7.24143C16.4751 7.60858 16.2869 7.696 15.7567 7.696H14.166V2.60832C14.166 2.11878 13.9949 1.94395 13.516 1.94395H11.549C11.0701 1.94395 10.899 2.11878 10.899 2.60832V3.18527C10.899 3.67481 11.0701 3.84964 11.549 3.84964H12.1819V12.5389C12.1819 13.0285 12.3529 13.2033 12.8318 13.2033H13.516C13.9949 13.2033 14.166 13.0285 14.166 12.5389V9.65414H15.9448C16.4751 9.65414 16.6632 9.74156 16.9198 10.1087L18.6987 12.7837C18.921 13.1334 19.075 13.2033 19.5368 13.2033H20.4775C20.9906 13.2033 21.0933 12.7837 20.8025 12.3641Z"
+								fill="white"
+							/>
+							<path
+								d="M24.8898 15.4761H25.8648C27.1989 15.4761 27.7976 14.9167 28.3107 13.9201L32.775 5.2658C33.0145 4.81123 32.8263 4.46156 32.3132 4.46156H31.4237C30.9619 4.46156 30.7396 4.54898 30.5856 4.88117L28.9094 8.39534C28.5331 9.16461 28.1397 10.0388 27.7976 10.8081C27.4555 10.0213 27.0279 9.11216 26.6516 8.3254L25.0096 4.88117C24.8385 4.54898 24.6333 4.46156 24.1715 4.46156H23.282C22.7689 4.46156 22.5807 4.81123 22.8202 5.2658L26.7371 12.8361L26.6345 13.0634C26.4463 13.4655 26.2069 13.5704 25.7109 13.5704H24.8898C24.4109 13.5704 24.2399 13.7453 24.2399 14.2348V14.8118C24.2399 15.3013 24.4109 15.4761 24.8898 15.4761Z"
+								fill="white"
+							/>
+							<path
+								d="M34.7263 12.0669C35.3762 12.6788 37.0183 13.3432 39.0537 13.3432C41.8246 13.3432 43.3811 12.2767 43.3811 10.5983C43.3811 8.95481 42.2009 8.27295 39.9602 7.97573L38.13 7.73097C37.2919 7.60858 36.8301 7.39878 36.8301 7.03163C36.8301 6.54209 37.5998 6.24487 39.1734 6.24487C40.0799 6.24487 40.8496 6.40222 41.1575 6.50713V6.76938C41.1575 7.25891 41.3286 7.43375 41.8075 7.43375H42.3377C42.8167 7.43375 42.9877 7.25891 42.9877 6.76938V5.98262C42.9877 5.3707 42.8851 5.12593 42.1496 4.82871C41.4825 4.56646 40.4562 4.32169 38.8655 4.32169C36.0091 4.32169 34.7776 5.54554 34.7776 7.08408C34.7776 8.51772 35.9065 9.33944 38.1472 9.63666L40.0115 9.88143C40.8326 9.98633 41.3286 10.1262 41.3286 10.6157C41.3286 11.0528 40.7299 11.42 39.3274 11.42C37.6853 11.42 36.4538 11.0004 35.7012 10.4409C35.3078 10.1437 34.9999 10.2486 34.8289 10.6507L34.5723 11.2451C34.4526 11.5424 34.4868 11.8396 34.7263 12.0669Z"
+								fill="white"
+							/>
+							<path
+								d="M55.3077 12.3641L53.221 9.25203C53.1013 9.07719 52.8105 8.77997 52.6052 8.60514C52.8105 8.39534 53.0157 8.13309 53.1868 7.88832L54.8459 5.31825C55.1367 4.88117 55.0341 4.46156 54.5209 4.46156H53.5802C53.1184 4.46156 52.9644 4.5315 52.725 4.89865L51.2369 7.24143C50.9803 7.60858 50.7922 7.696 50.2619 7.696H48.6712V2.60832C48.6712 2.11878 48.5002 1.94395 48.0212 1.94395H46.0542C45.5753 1.94395 45.4043 2.11878 45.4043 2.60832V3.18527C45.4043 3.67481 45.5753 3.84964 46.0542 3.84964H46.6871V12.5389C46.6871 13.0285 46.8581 13.2033 47.3371 13.2033H48.0212C48.5002 13.2033 48.6712 13.0285 48.6712 12.5389V9.65414H50.4501C50.9803 9.65414 51.1685 9.74156 51.425 10.1087L53.2039 12.7837C53.4262 13.1334 53.5802 13.2033 54.042 13.2033H54.9828C55.4959 13.2033 55.5985 12.7837 55.3077 12.3641Z"
+								fill="white"
+							/>
+							<path
+								d="M59.8569 3.46501C59.0188 3.46501 58.403 2.88805 58.403 2.11878C58.403 1.36699 59.0188 0.790039 59.8569 0.790039C60.6608 0.790039 61.2766 1.36699 61.2766 2.11878C61.2766 2.88805 60.6608 3.46501 59.8569 3.46501ZM59.6174 13.2033H60.3016C60.7805 13.2033 60.9516 13.0285 60.9516 12.5389V5.12593C60.9516 4.6364 60.7805 4.46156 60.3016 4.46156H58.3346C57.8557 4.46156 57.6846 4.6364 57.6846 5.12593V5.70289C57.6846 6.19242 57.8557 6.36726 58.3346 6.36726H58.9675V12.5389C58.9675 13.0285 59.1385 13.2033 59.6174 13.2033Z"
+								fill="white"
+							/>
+							<path
+								d="M66.3578 1.94395H64.3908C63.9119 1.94395 63.7409 2.11878 63.7409 2.60832V3.18527C63.7409 3.67481 63.9119 3.84964 64.3908 3.84964H65.0237V12.5389C65.0237 13.0285 65.1947 13.2033 65.6737 13.2033H66.3578C66.8368 13.2033 67.0078 13.0285 67.0078 12.5389V2.60832C67.0078 2.11878 66.8368 1.94395 66.3578 1.94395Z"
+								fill="white"
+							/>
+							<path
+								d="M71.809 1.94395H69.842C69.363 1.94395 69.192 2.11878 69.192 2.60832V3.18527C69.192 3.67481 69.363 3.84964 69.842 3.84964H70.4748V12.5389C70.4748 13.0285 70.6459 13.2033 71.1248 13.2033H71.809C72.2879 13.2033 72.459 13.0285 72.459 12.5389V2.60832C72.459 2.11878 72.2879 1.94395 71.809 1.94395Z"
+								fill="white"
+							/>
+							<path
+								d="M75.0559 12.0669C75.7059 12.6788 77.3479 13.3432 79.3833 13.3432C82.1542 13.3432 83.7107 12.2767 83.7107 10.5983C83.7107 8.95481 82.5305 8.27295 80.2898 7.97573L78.4597 7.73097C77.6215 7.60858 77.1597 7.39878 77.1597 7.03163C77.1597 6.54209 77.9294 6.24487 79.503 6.24487C80.4096 6.24487 81.1793 6.40222 81.4871 6.50713V6.76938C81.4871 7.25891 81.6582 7.43375 82.1371 7.43375H82.6674C83.1463 7.43375 83.3173 7.25891 83.3173 6.76938V5.98262C83.3173 5.3707 83.2147 5.12593 82.4792 4.82871C81.8121 4.56646 80.7859 4.32169 79.1951 4.32169C76.3387 4.32169 75.1072 5.54554 75.1072 7.08408C75.1072 8.51772 76.2361 9.33944 78.4768 9.63666L80.3412 9.88143C81.1622 9.98633 81.6582 10.1262 81.6582 10.6157C81.6582 11.0528 81.0595 11.42 79.657 11.42C78.0149 11.42 76.7834 11.0004 76.0308 10.4409C75.6374 10.1437 75.3295 10.2486 75.1585 10.6507L74.9019 11.2451C74.7822 11.5424 74.8164 11.8396 75.0559 12.0669Z"
+								fill="white"
+							/>
+						</svg>
+					</a>
+					<a href="index.html" class="header__link header__link_else">by</a>
+					<div class="header__logos">
+						<a href="index.html" class="header__link header__link_logo1"
+							><svg
+								width="14"
+								height="15"
+								viewBox="0 0 14 15"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M3.06779 14.2606C1.57119 15.1152 0.496094 14.403 0.496094 13.1362C0.496094 11.7877 0.496094 7.74134 0.496094 7.74134C0.496094 7.74134 0.496094 3.69501 0.496094 2.34646C0.496094 1.07967 1.57052 0.367474 3.06779 1.22211C5.39872 2.55286 12.3908 6.54644 12.3908 6.54644C13.3206 7.07729 13.3206 8.40474 12.3908 8.93559C12.3908 8.93625 5.39872 12.9298 3.06779 14.2606Z"
+									fill="#00C1FF"
+								/>
+							</svg>
+						</a>
+						<a href="index.html" class="header__link header__link_logo2">
+							<svg
+								width="13"
+								height="15"
+								viewBox="0 0 13 15"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M2.76335 14.2596C1.26675 15.1142 0.19165 14.402 0.19165 13.1353C0.19165 11.7867 0.19165 7.74037 0.19165 7.74037C0.19165 7.74037 0.19165 3.69404 0.19165 2.34548C0.19165 1.07869 1.26608 0.366497 2.76335 1.22113C5.04292 2.52287 11.8817 6.42874 11.8817 6.42874C12.9027 7.01169 12.9027 8.46905 11.8817 9.052C11.881 9.052 5.04292 12.9579 2.76335 14.2596Z"
+									fill="#6FE4FF"
+								/>
+							</svg>
+						</a>
+					</div>
+					<a href="index.html" class="header__link">
+						<svg
+							width="71"
+							height="16"
+							viewBox="0 0 71 16"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M0.608296 10.1425L0.873067 9.54832C1.0498 9.14672 1.36793 9.04187 1.77409 9.33862C2.55174 9.89782 3.82358 10.3172 5.52026 10.3172C6.9695 10.3172 7.58775 9.95058 7.58775 9.51337C7.58775 9.02407 7.07555 8.88427 6.22721 8.77941L4.30111 8.53542C1.98618 8.23867 0.819713 7.41701 0.819713 5.9847C0.819713 4.44755 2.09222 3.22428 5.04273 3.22428C6.68606 3.22428 7.74648 3.46894 8.43542 3.73073C9.19506 4.02748 9.3011 4.27213 9.3011 4.8841V5.67015C9.3011 6.15945 9.12436 6.33421 8.6295 6.33421H8.08195C7.58709 6.33421 7.41035 6.15945 7.41035 5.67015V5.40769C7.09222 5.30284 6.29724 5.14589 5.36086 5.14589C3.73555 5.14589 2.93989 5.44264 2.93989 5.93195C2.93989 6.2986 3.41675 6.5083 4.28243 6.63095L6.17319 6.87561C8.48811 7.17236 9.70727 7.85422 9.70727 9.49623C9.70727 11.1732 8.09929 12.2395 5.23681 12.2395C3.13397 12.2395 1.43796 11.5754 0.766359 10.9641C0.519594 10.7366 0.484247 10.4392 0.608296 10.1425Z"
+								fill="white"
+							/>
+							<path
+								d="M21.4626 12.099H20.4909C20.0141 12.099 19.8547 12.0291 19.6252 11.6796L17.7878 9.00626C17.5231 8.63961 17.3283 8.55191 16.7808 8.55191H14.9434V11.435C14.9434 11.9243 14.7666 12.099 14.2718 12.099H13.5648C13.0699 12.099 12.8932 11.9243 12.8932 11.435V2.75212H12.2396C11.7447 2.75212 11.568 2.57737 11.568 2.08806V1.51171C11.568 1.02241 11.7447 0.847656 12.2396 0.847656H14.2718C14.7666 0.847656 14.9434 1.02241 14.9434 1.51171V6.596H16.5867C17.1342 6.596 17.329 6.50896 17.5938 6.14165L19.131 3.80063C19.3785 3.43398 19.5372 3.36408 20.0147 3.36408H20.9864C21.5167 3.36408 21.6227 3.78349 21.3219 4.22004L19.6079 6.78856C19.4312 7.03321 19.2191 7.29501 19.007 7.50471C19.2191 7.67947 19.5192 7.97621 19.6432 8.15097L21.7988 11.2609C22.0989 11.6803 21.9928 12.099 21.4626 12.099Z"
+								fill="white"
+							/>
+							<path
+								d="M24.808 13.7068V13.1304C24.808 12.6411 24.9847 12.4663 25.4796 12.4663H26.3279C26.8401 12.4663 27.0875 12.3615 27.2823 11.9599L27.3883 11.7331L23.342 4.16794C23.0946 3.71359 23.2887 3.36408 23.8189 3.36408H24.7379C25.2148 3.36408 25.4269 3.45113 25.6036 3.78349L27.2996 7.22511C27.6884 8.01117 28.13 8.91987 28.4834 9.70593C28.8369 8.93702 29.2431 8.06392 29.6319 7.29501L31.3633 3.78349C31.522 3.45179 31.7521 3.36408 32.2289 3.36408H33.148C33.6782 3.36408 33.8723 3.71359 33.6248 4.16794L29.013 12.8165C28.4828 13.8123 27.8645 14.3715 26.486 14.3715H25.4789C24.9847 14.3708 24.808 14.1961 24.808 13.7068Z"
+								fill="white"
+							/>
+							<path
+								d="M44.9173 7.69661V7.90631C44.9173 8.39562 44.7406 8.57037 44.2457 8.57037H37.0008C37.2483 9.49623 38.1846 10.3871 40.1814 10.3871C41.9662 10.3871 42.7792 9.81078 43.15 9.54832C43.5561 9.25157 43.8389 9.35577 44.051 9.75802L44.3511 10.3344C44.5098 10.6311 44.4218 10.8586 44.1564 11.0855C43.7675 11.4172 42.4423 12.2388 40.1808 12.2388C37.1416 12.2388 35.0214 10.4742 35.0214 7.71376C35.0214 5.00543 37.0535 3.22362 39.9687 3.22362C42.8852 3.22362 44.9173 4.98829 44.9173 7.69661ZM37.0008 6.87561H42.9559C42.7265 5.9669 41.7894 5.11094 39.9694 5.11094C38.1493 5.11094 37.2303 5.9669 37.0008 6.87561Z"
+								fill="white"
+							/>
+							<path
+								d="M57.8025 7.3992V11.435C57.8025 11.9243 57.6258 12.099 57.1309 12.099H56.4239C55.9291 12.099 55.7523 11.9243 55.7523 11.435V7.4513C55.7523 6.03614 54.904 5.26723 53.4728 5.26723C52.3596 5.26723 51.0345 5.94843 50.3802 6.66459V11.4343C50.3802 11.9236 50.2034 12.0984 49.7086 12.0984H49.0016C48.5068 12.0984 48.33 11.9236 48.33 11.4343V5.26723H47.6764C47.1816 5.26723 47.0048 5.09248 47.0048 4.60317V4.02682C47.0048 3.53752 47.1816 3.36276 47.6764 3.36276H49.3905C49.8853 3.36276 50.0621 3.53752 50.0621 4.02682V4.51613C51.0164 3.74722 52.3063 3.22296 53.7022 3.22296C56.3532 3.22362 57.8025 4.77858 57.8025 7.3992Z"
+								fill="white"
+							/>
+							<path
+								d="M70.0027 4.02748V12.2046C70.0027 14.0213 68.0239 15.2096 65.4969 15.2096C63.1113 15.2096 61.9808 14.5106 61.468 14.0391C61.2205 13.8123 61.1852 13.5149 61.3086 13.2181L61.5733 12.624C61.7681 12.1874 62.0855 12.0997 62.4744 12.4143C63.0926 12.9036 63.6935 13.3052 65.4782 13.323C67.0682 13.323 67.9519 12.7466 67.9519 12.0476V11.2088C67.3156 11.6104 66.538 11.8729 65.4249 11.8729C62.5624 11.8729 60.5829 10.213 60.5829 7.55747C60.5829 4.9019 62.5617 3.22428 65.4249 3.22428C66.6614 3.22428 67.4744 3.57379 68.0226 3.99319C68.164 3.69644 68.4467 3.36408 68.8002 3.36408H69.3304C69.826 3.36342 70.0027 3.53818 70.0027 4.02748ZM67.9532 8.95482V6.15945C67.4583 5.5653 66.7341 5.19865 65.4262 5.19865C63.8536 5.19865 62.7051 6.08955 62.7051 7.55747C62.7051 9.02539 63.8536 9.89849 65.4262 9.89849C66.716 9.89783 67.441 9.53118 67.9532 8.95482Z"
+								fill="white"
+							/>
+						</svg>
+					</a>
+				</div>
+
+				<div class="header__links header__links_tablet">
+					<img
+						class="header__threeRac"
+						src="/imgHeader/threeRac.svg"
+						alt="threeRac"
+					/>
+					<a href="#" class="header__link header__link_else header__link_hover"
+						>Как проходит обучение</a
+					>
+					<a href="#" class="header__link header__link_else header__link_hover"
+						>Преподаватели</a
+					>
+					<a href="#" class="header__link header__link_else header__link_hover"
+						>Программа</a
+					>
+					<a href="#" class="header__link header__link_else header__link_hover"
+						>Стоимость</a
+					>
+					<a href="#" class="header__link header__link_else header__link_hover"
+						>Заявка на обучение</a
+					>
+				</div>
+			</div>
+
+			<div class="header__title">
+				<h1 class="header__smallTitle">
+					самый
+					<div class="header__amazing">&nbspэмейзинг&nbsp</div>
+					курс по профессии
+				</h1>
+				<svg
+					class="header__svg"
+					width="385"
+					height="140"
+					viewBox="0 0 358 140"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M2.05909 34.9469C13.7657 62.9907 15.4053 94.2768 6.69422 123.391C3.33706 134.608 9.73216 141.597 21.1513 139.063C134.644 113.92 227.555 109.05 343.064 122.193C354.676 123.519 360.315 115.889 355.804 105.094C344.097 77.0507 342.458 45.7646 351.169 16.6509C354.526 5.43341 348.131 -1.55529 336.712 0.977953C223.219 26.1219 130.298 30.9916 14.7987 17.8487C3.18741 16.5224 -2.45223 24.1418 2.05909 34.9469Z"
+						fill="#D97DFF"
+						opacity="0.8"
+					/>
+				</svg>
+			</div>
+
+			<h1 class="header__main">аналитик данных</h1>
+
+			<div class="header__junior">
+				<h2 class="header__junText">с нуля</h2>
+				<img class='header__strelka' src="/imgHeader/strelka.svg" alt="strelka">
+				<img class='header__tabletStrelka' src="/imgHeader/strelkaTablet.svg" alt="tabletStrelka">
+				<h2 class="header__junText">до джуниора</h2>
+			</div>
+
+			<div class="header__description">
+				<h3 class="header__smallText">
+					Мы проанализировали обучение аналитиков на рынке и прокачали каждую
+					составляющую — пригласили
+					<span class="header__span">лучших экспертов</span>, составили полную
+					программу
+					<span class="header__span">по компетенциям специалистов</span>,
+					разнообразили практику и применили
+					<span class="header__span">весь опыт</span> обучения
+					<svg
+						class="header__secondSvg"
+						width="167"
+						height="26"
+						viewBox="0 0 167 26"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M4.54417 23.8414C1.89969 25.3516 0 24.0931 0 21.8547C0 19.4718 0 12.322 0 12.322C0 12.322 0 5.17212 0 2.78923C0 0.550821 1.89851 -0.707627 4.54417 0.80251C8.66291 3.15394 21.018 10.2106 21.018 10.2106C22.6607 11.1486 22.6607 13.4942 21.018 14.4322C21.018 14.4334 8.66291 21.49 4.54417 23.8414Z"
+							fill="#00C1FF"
+						/>
+						<path
+							d="M18.1453 23.8404C15.5008 25.3506 13.6011 24.0921 13.6011 21.8537C13.6011 19.4708 13.6011 12.321 13.6011 12.321C13.6011 12.321 13.6011 5.17114 13.6011 2.78825C13.6011 0.549844 15.4996 -0.708604 18.1453 0.801533C22.1733 3.1017 34.2573 10.0033 34.2573 10.0033C36.0615 11.0334 36.0615 13.6086 34.2573 14.6386C34.2561 14.6386 22.1733 21.5403 18.1453 23.8404Z"
+							fill="#6FE4FF"
+						/>
+						<mask
+							id="mask0_1_4226"
+							style="mask-type: alpha"
+							maskUnits="userSpaceOnUse"
+							x="13"
+							y="0"
+							width="23"
+							height="25"
+						>
+							<path
+								d="M18.1453 23.8404C15.5008 25.3506 13.6011 24.0921 13.6011 21.8537C13.6011 19.4708 13.6011 12.321 13.6011 12.321C13.6011 12.321 13.6011 5.17114 13.6011 2.78825C13.6011 0.549844 15.4996 -0.708604 18.1453 0.801533C22.1733 3.1017 34.2573 10.0033 34.2573 10.0033C36.0615 11.0334 36.0615 13.6086 34.2573 14.6386C34.2561 14.6386 22.1733 21.5403 18.1453 23.8404Z"
+								fill="#6FE4FF"
+							/>
+						</mask>
+						<g mask="url(#mask0_1_4226)">
+							<g filter="url(#filter0_f_1_4226)">
+								<path
+									d="M4.54399 23.8414C1.89951 25.3516 -0.000183105 24.0931 -0.000183105 21.8547C-0.000183105 19.4718 -0.000183105 12.322 -0.000183105 12.322C-0.000183105 12.322 -0.000183105 5.17212 -0.000183105 2.78923C-0.000183105 0.550821 1.89833 -0.707627 4.54399 0.80251C8.66273 3.15394 21.0178 10.2106 21.0178 10.2106C22.6606 11.1486 22.6606 13.4942 21.0178 14.4322C21.0178 14.4334 8.66273 21.49 4.54399 23.8414Z"
+									fill="#009EE4"
+								/>
+							</g>
+						</g>
+						<path
+							d="M44.3816 16.5655L44.8494 15.5156C45.1617 14.806 45.7239 14.6207 46.4415 15.1451C47.8156 16.1332 50.063 16.8743 53.061 16.8743C55.6218 16.8743 56.7142 16.2264 56.7142 15.4539C56.7142 14.5893 55.8092 14.3422 54.3102 14.157L50.9068 13.7258C46.8163 13.2015 44.7552 11.7496 44.7552 9.21873C44.7552 6.50259 47.0037 4.34109 52.2172 4.34109C55.121 4.34109 56.9947 4.77339 58.2121 5.23598C59.5544 5.76033 59.7417 6.19264 59.7417 7.27397V8.66292C59.7417 9.52752 59.4294 9.8363 58.555 9.8363H57.5875C56.7131 9.8363 56.4008 9.52752 56.4008 8.66292V8.19916C55.8386 8.01389 54.4339 7.73656 52.7793 7.73656C49.9074 7.73656 48.5015 8.26092 48.5015 9.12552C48.5015 9.77338 49.3441 10.1439 50.8738 10.3607L54.2147 10.793C58.3052 11.3173 60.4594 12.5222 60.4594 15.4236C60.4594 18.3868 57.6181 20.2709 52.5601 20.2709C48.8444 20.2709 45.8476 19.0975 44.6609 18.0174C44.2249 17.6154 44.1624 17.0899 44.3816 16.5655Z"
+							fill="white"
+						/>
+						<path
+							d="M81.2311 20.0227H79.5141C78.6715 20.0227 78.3898 19.8992 77.9844 19.2816L74.7377 14.5578C74.2699 13.9099 73.9258 13.755 72.9582 13.755H69.7116V18.8493C69.7116 19.7139 69.3993 20.0227 68.5248 20.0227H67.2757C66.4012 20.0227 66.089 19.7139 66.089 18.8493V3.50678H64.9341C64.0596 3.50678 63.7473 3.198 63.7473 2.3334V1.31499C63.7473 0.450388 64.0596 0.141602 64.9341 0.141602L68.5248 0.141602C69.3993 0.141602 69.7116 0.450388 69.7116 1.31499V10.2989H72.6153C73.5828 10.2989 73.9269 10.1451 74.3948 9.49606L77.1112 5.3595C77.5484 4.71163 77.8288 4.58811 78.6726 4.58811H80.3897C81.3265 4.58811 81.5139 5.3292 80.9824 6.10058L77.9538 10.6391C77.6415 11.0714 77.2667 11.534 76.892 11.9046C77.2667 12.2134 77.797 12.7377 78.0162 13.0465L81.825 18.5417C82.3553 19.2828 82.168 20.0227 81.2311 20.0227Z"
+							fill="white"
+						/>
+						<path
+							d="M87.1423 22.8636V21.8451C87.1423 20.9805 87.4546 20.6718 88.329 20.6718H89.828C90.7331 20.6718 91.1703 20.4865 91.5144 19.7769L91.7018 19.376L84.552 6.00853C84.1148 5.20569 84.4577 4.58812 85.3946 4.58812H87.0185C87.8611 4.58812 88.2359 4.74193 88.5482 5.3292L91.545 11.4105C92.2321 12.7995 93.0122 14.4052 93.6368 15.7941C94.2614 14.4355 94.9791 12.8927 95.6661 11.534L98.7254 5.3292C99.0059 4.74309 99.4125 4.58812 100.255 4.58812H101.879C102.816 4.58812 103.159 5.20569 102.722 6.00853L94.5725 21.2905C93.6356 23.05 92.5432 24.0381 90.1073 24.0381H88.3278C87.4546 24.0369 87.1423 23.7282 87.1423 22.8636Z"
+							fill="white"
+						/>
+						<path
+							d="M122.675 12.2437V12.6142C122.675 13.4788 122.363 13.7876 121.489 13.7876H108.687C109.124 15.4236 110.779 16.9978 114.307 16.9978C117.461 16.9978 118.897 15.9794 119.552 15.5156C120.27 14.9913 120.77 15.1754 121.145 15.8862L121.675 16.9046C121.955 17.4289 121.8 17.8309 121.331 18.2318C120.644 18.8179 118.302 20.2698 114.306 20.2698C108.936 20.2698 105.189 17.1516 105.189 12.274C105.189 7.48837 108.78 4.33992 113.931 4.33992C119.085 4.33992 122.675 7.45807 122.675 12.2437ZM108.687 10.793H119.21C118.804 9.18727 117.148 7.67481 113.932 7.67481C110.716 7.67481 109.092 9.18727 108.687 10.793Z"
+							fill="white"
+						/>
+						<path
+							d="M145.443 11.7181V18.8493C145.443 19.7139 145.131 20.0227 144.257 20.0227H143.008C142.133 20.0227 141.821 19.7139 141.821 18.8493V11.8102C141.821 9.30962 140.322 7.95096 137.793 7.95096C135.826 7.95096 133.484 9.15465 132.328 10.4201V18.8482C132.328 19.7128 132.016 20.0216 131.142 20.0216H129.892C129.018 20.0216 128.706 19.7128 128.706 18.8482V7.95096H127.551C126.676 7.95096 126.364 7.64218 126.364 6.77758V5.75917C126.364 4.89457 126.676 4.58578 127.551 4.58578H130.579C131.454 4.58578 131.766 4.89457 131.766 5.75917V6.62377C133.452 5.26511 135.732 4.33876 138.198 4.33876C142.883 4.33992 145.443 7.08753 145.443 11.7181Z"
+							fill="white"
+						/>
+						<path
+							d="M167.001 5.76033V20.2092C167.001 23.4194 163.505 25.5191 159.039 25.5191C154.824 25.5191 152.826 24.284 151.92 23.4508C151.483 23.05 151.421 22.5245 151.639 22.0001L152.106 20.9503C152.451 20.1789 153.012 20.0239 153.699 20.5797C154.791 21.4443 155.853 22.1539 159.006 22.1854C161.816 22.1854 163.377 21.167 163.377 19.9318V18.4497C162.253 19.1593 160.879 19.6231 158.912 19.6231C153.854 19.6231 150.356 16.6902 150.356 11.9978C150.356 7.30543 153.853 4.34109 158.912 4.34109C161.097 4.34109 162.534 4.95866 163.502 5.69974C163.752 5.17539 164.252 4.58812 164.876 4.58812H165.813C166.689 4.58695 167.001 4.89574 167.001 5.76033ZM163.38 14.4669V9.52752C162.505 8.47765 161.225 7.82978 158.914 7.82978C156.136 7.82978 154.106 9.404 154.106 11.9978C154.106 14.5916 156.136 16.1344 158.914 16.1344C161.194 16.1332 162.475 15.4853 163.38 14.4669Z"
+							fill="white"
+						/>
+						<defs>
+							<filter
+								id="filter0_f_1_4226"
+								x="-1.44075"
+								y="-1.29798"
+								width="25.1312"
+								height="27.2395"
+								filterUnits="userSpaceOnUse"
+								color-interpolation-filters="sRGB"
+							>
+								<feFlood flood-opacity="0" result="BackgroundImageFix" />
+								<feBlend
+									mode="normal"
+									in="SourceGraphic"
+									in2="BackgroundImageFix"
+									result="shape"
+								/>
+								<feGaussianBlur
+									stdDeviation="0.720281"
+									result="effect1_foregroundBlur_1_4226"
+								/>
+							</filter>
+						</defs>
+					</svg>
+				</h3>
+			</div>
+
+			<div class="header__footer">
+				<button class="header__button">Оставить заявку</button>
+				<div class="header__start">
+					<p class="header__startWords">Старт курса</p>
+					<p class="header__startData">18 марта 2021</p>
+				</div>
+				<div class="header__start">
+					<p class="header__startWords">Длительность</p>
+					<p class="header__startData">12 месяцев</p>
+				</div>
+			</div>
+		</header>
+
+		<!-- <section class="section center">
+			<h1 class="section__title">Преподаватели — эксперты в аналитике</h1>
+			<div class="section__info">
+				<div class="section__people">
+					<img class="section__img" src="imgSection/alexey.jpg" alt="Alexey" />
+					<div class="section__about">
+						<h6 class="section__name">Алексей Никушин</h6>
+						<p class="section__whois">Главный автор и преподаватель</p>
+						<p class="section__creator">
+							Создатель конференции
+							<a class="section__creatorLink" href="https://matemarketing.ru/"
+								>Матемаркетинг</a
+							>. Экс-руководитель отдела маркетинг- аналитики в «Rambler Group»
+						</p>
+						<div class="section__link">
+							<div class="section__firstLink">
+								<a
+									class="section__eachLink"
+									href="https://www.youtube.com/watch?v=mome3DWQqg0"
+									class="section__social"
+									>Интервью</a
+								><a
+									class="section__eachLink"
+									href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.facebook.com%2Fnikushin.av"
+									class="section__social"
+									>Facebook</a
+								><a
+									class="section__eachLink"
+									href="https://t.me/internetanalytics"
+									class="section__social"
+									>Канал в Telegram</a
+								>
+							</div>
+							<div class="section__secondLink">
+								<a
+									class="section__eachLink"
+									href="https://www.youtube.com/watch?v=Hv8Aw6SSMaM&t=135s"
+									class="section__social"
+									>Выступение на TEDx Talks</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section__people">
+					<img class="section__img" src="imgSection/mihail.jpg" alt="mihail" />
+					<div class="section__about">
+						<h6 class="section__name">Михаил Морозов</h6>
+						<p class="section__whois">Автор и преподаватель</p>
+						<p class="section__creator">Chief Analytics Officer в Skyeng</p>
+						<div class="section__link">
+							<div class="section__firstLink">
+								<a
+									class="section__eachLink"
+									href="https://www.figma.com/exit?url=https%3A%2F%2Fsense23.com%2Fpost%2Ftri-shaga-dlya-kratnogo-rosta-prodazh"
+									class="section__social"
+									>Три шага для кратного роста продаж</a
+								>
+							</div>
+							<div class="section__secondLink">
+								<a
+									class="section__eachLink"
+									href="https://team.skyeng.ru/"
+									class="section__social"
+									>О команде аналитики Skyeng</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section__people">
+					<img class="section__img" src="imgSection/dmitry.jpg" alt="dmitry" />
+					<div class="section__about">
+						<h6 class="section__name">Дмитрий Тумайкин</h6>
+						<p class="section__whois">Автор и преподаватель</p>
+						<p class="section__creator">
+							Маркетолог-практик, эксперт по текстовой аналитике в Excel. Excel
+							VBA энтузиаст, маркетолог, аналитик
+						</p>
+						<div class="section__link">
+							<div class="section__firstLink">
+								<a
+									class="section__eachLink"
+									href="https://semtools.guru/ru/"
+									class="section__social"
+									>Инструменты для Excel</a
+								>
+								<a
+									class="section__eachLink"
+									href="https://semtools.guru/ru/author/"
+									class="section__social"
+									>Выступления</a
+								>
+							</div>
+							<div class="section__secondLink">
+								<a
+									class="section__eachLink"
+									href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.facebook.com%2Ftumaykindmitry"
+									class="section__social"
+									>Facebook</a
+								>
+								<a
+									class="section__eachLink"
+									href="https://t.me/semtools"
+									class="section__social"
+									>Канал в Telegram</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section__people">
+					<img class="section__img" src="imgSection/vitaly.jpg" alt="vitaly" />
+					<div class="section__about">
+						<h6 class="section__name">Виталий Черемисинов</h6>
+						<p class="section__whois">Автор и преподаватель</p>
+						<p class="section__creator">
+							Сo-founder <a class="section__creatorLink" href="#">EXPF</a>
+						</p>
+						<div class="section__link">
+							<div class="section__firstLink">
+								<a
+									class="section__eachLink"
+									href="https://www.youtube.com/watch?v=mfsIZdzS0vg&t=1025s"
+									class="section__social"
+									>Выступление на Метамаркетинг</a
+								>
+							</div>
+							<div class="section__secondLink">
+								<a
+									class="section__eachLink"
+									href="https://t.me/exp_fest"
+									class="section__social"
+									>Канал в Telegram</a
+								>
+							</div>
+							<div class="section__thirdLink">
+								<a
+									class="section__eachLink"
+									href="https://www.youtube.com/watch?v=buLioOybexk&t=382s"
+									class="section__social"
+									>Выступение в Академии Яндекса</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<button class="section__button">
+				<div class="section__buttonImg">
+					<div class="section__buttonFace section__buttonFace_first"></div>
+					<div class="section__buttonFace section__buttonFace_second"></div>
+					<div class="section__buttonFace section__buttonFace_third"></div>
+					<div class="section__buttonFace section__buttonFace_fourth"></div>
+				</div>
+				<p class="section__buttonInfo">Ещё 4 преподавателя</p>
+			</button>
+		</section>
+
+		<section class="about center">
+			<h1 class="about__title">
+				Программа на 100% соответствует требованиям к вакансиям
+				<span class="about__span">junior-аналитиков</span>
+			</h1>
+
+			<h2 class="about__text">
+				Мы исследовали 1134 вакансий, составили список самых частых требований к
+				аналитикам без опыта работы <br />
+				и&nbsp
+				<label class="about__label">
+					<input class="about__checkbox" type="checkbox" />
+					<span class="about__fake about__fake_special"></span>
+					<span class="about__textSpan">включили</span>
+				</label>
+				их в программу обучения
+			</h2>
+
+			<div class="about__skills">
+				<div class="about__check">
+					<div class="about__eachSkill">
+						<h6 class="about__name">Навыки</h6>
+						<h6 class="about__name">В программе Skills</h6>
+					</div>
+					<div class="about__eachSkill">
+						<div class="about__skillName">SQL</div>
+
+						<label class="about__label">
+							<input class="about__checkbox" type="checkbox" />
+							<div class="about__gap"></div>
+							<span class="about__fake"></span>
+							<span class="about__textSpan">Да</span>
+						</label>
+					</div>
+					<div class="about__eachSkill">
+						<div class="about__skillName">Excel</div>
+						<label class="about__label">
+							<input class="about__checkbox" type="checkbox" />
+							<span class="about__fake"></span>
+							<span class="about__textSpan">Да</span>
+						</label>
+					</div>
+					<div class="about__eachSkill">
+						<div class="about__skillName">BI-системы</div>
+						<label class="about__label">
+							<input class="about__checkbox" type="checkbox" />
+							<span class="about__fake"></span>
+							<span class="about__textSpan">Да</span>
+						</label>
+					</div>
+					<div class="about__eachSkill">
+						<div class="about__skillName">Математика и статистика</div>
+						<label class="about__label">
+							<input class="about__checkbox" type="checkbox" />
+							<span class="about__fake"></span>
+							<span class="about__textSpan">Да</span>
+						</label>
+					</div>
+					<div class="about__eachSkill">
+						<div class="about__skillName">Python</div>
+						<label class="about__label">
+							<input class="about__checkbox" type="checkbox" />
+							<span class="about__fake"></span>
+							<span class="about__textSpan">Да</span>
+						</label>
+					</div>
+					<div class="about__eachSkill">
+						<div class="about__skillName">Машинное обучение</div>
+						<label class="about__label">
+							<input class="about__checkbox" type="checkbox" />
+							<span class="about__fake"></span>
+							<span class="about__textSpan">Да</span>
+						</label>
+					</div>
+					<div class="about__eachSkill">
+						<div class="about__skillName">Веб-аналитика (GA, YM)</div>
+						<label class="about__label">
+							<input class="about__checkbox" type="checkbox" />
+							<span class="about__fake"></span>
+							<span class="about__textSpan">Да</span>
+						</label>
+					</div>
+					<div class="about__eachSkill">
+						<div class="about__skillName">Big Data</div>
+						<label class="about__label">
+							<input class="about__checkbox" type="checkbox" />
+							<span class="about__fake"></span>
+							<span class="about__textSpan">Да</span>
+						</label>
+					</div>
+				</div>
+				<div class="about__quantity">
+					<div class="about__eachQuantity">
+						<h6 class="about__name">Количество упоминаний в вакансиях</h6>
+					</div>
+					<div class="about__eachQuantity about__eachQuantity_special">
+						<div class="about__long"></div>
+						<div class="about__short about__short_one">
+							<p class="about__digit">952</p>
+						</div>
+					</div>
+					<div class="about__eachQuantity">
+						<div class="about__long"></div>
+						<div class="about__short about__short_two">
+							<p class="about__digit">352</p>
+						</div>
+					</div>
+					<div class="about__eachQuantity">
+						<div class="about__long"></div>
+						<div class="about__short about__short_three">
+							<p class="about__digit">420</p>
+						</div>
+					</div>
+					<div class="about__eachQuantity">
+						<div class="about__long"></div>
+						<div class="about__short about__short_four">
+							<p class="about__digit">454</p>
+						</div>
+					</div>
+					<div class="about__eachQuantity">
+						<div class="about__long"></div>
+						<div class="about__short about__short_five">
+							<p class="about__digit">374</p>
+						</div>
+					</div>
+					<div class="about__eachQuantity">
+						<div class="about__long"></div>
+						<div class="about__short about__short_six">
+							<p class="about__digit">170</p>
+						</div>
+					</div>
+					<div class="about__eachQuantity">
+						<div class="about__long"></div>
+						<div class="about__short about__short_seven">
+							<p class="about__digit">102</p>
+						</div>
+					</div>
+					<div class="about__eachQuantity">
+						<div class="about__long">
+							<p class="about__digit about__digit_special">34</p>
+						</div>
+						<div class="about__short about__short_eight"></div>
+					</div>
+				</div>
+			</div>
+			<div class="about__divButton">
+				<button class="about__button">О программе и навыках выпускника</button>
+			</div>
+		</section>
+
+		<section class="info center">
+			<h1 class="info__title">
+				Курс от
+				<img class="info__img" src="/imgInfo/logoInfo.svg" alt="logo__info" />,
+				эксперта в онлайн-образовании
+			</h1>
+			<h6 class="info__text">
+				Мы успешно учим взрослых и детей английскому, математике, физике и даже
+				шахматам. Для этого мы научились
+				<span class="info__smallInfo"
+					>анализировать, моделировать и тестировать</span
+				>
+				буквально все! <br />
+				И теперь хотим поделиться этими знаниями с вами.
+			</h6>
+
+			<div class="info__figure newCenter">
+				<div class="info__fourFigure_one">
+					<p class="info__smallText info__smallText_one">
+						Skyeng <br />
+						70 аналитиков в штате
+					</p>
+				</div>
+				<div class="info__fourFigure_two">
+					<p class="info__smallText info__smallText_two">
+						EdTech-компания №1 в России
+					</p>
+					<a
+						class="info__link info__link_two"
+						href="https://trends.rbc.ru/trends/education/5d68e8fb9a7947360f1e2e52"
+						>источник</a
+					>
+				</div>
+				<div class="info__fourFigure_three">
+					<p class="info__smallText info__smallText_three">
+						125 000 <br />
+						активных <br />
+						учеников
+					</p>
+				</div>
+				<div class="info__fourFigure_four">
+					<p class="info__smallText info__smallText_four">
+						IT-компания <br />
+						№13 в рейтинге <br />
+						Forbes
+					</p>
+					<a
+						class="info__link info__link_four"
+						href="https://trends.rbc.ru/trends/education/5d68e8fb9a7947360f1e2e52"
+						>источник</a
+					>
+				</div>
+			</div>
+
+			<div class="info__footer">
+				<h6 class="info__footerTitle">Бесплатная консультация</h6>
+				<p class="info__footerText">
+					Познакомимся, расскажем о программе и опыте Skyeng. Поможем понять,
+					работает ли курс на ваши цели.
+				</p>
+				<div class="info__footerInfo">
+					<form class="info__form" action="#">
+						<input class="info__input" placeholder="+7" type="number" />
+						<input class="info__input" placeholder="Эл. почта" type="email" />
+						<input class="info__input" placeholder="Имя" type="text" />
+						<button class="info__button">Оставить заявку</button>
+					</form>
+					<p class="info__miniText">
+						Оставляя заявку, вы принимаете условия соглашения
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="all center">
+			<h1 class="all__title">Как проходит обучение</h1>
+
+			<div class="all__workshop">
+				<div class="all__first">
+					<h2 class="all__team">Командные воркшопы</h2>
+					<p class="all__text">
+						Лучше всего навыки прокачиваются во время командной работы, поэтому
+						наши преподаватели проводят воркшопы: объясняют задачу, делят
+						студентов на группы и помогают им прийти к результатам.
+					</p>
+					<img class="all__frame" src="/imgAll/frame.svg" alt="frame" />
+				</div>
+
+				<div class="all__second">
+					<div class="all__img">
+						<img
+							class="all__workshopimg"
+							src="imgAll/workshop.svg"
+							alt="workshop"
+						/>
+					</div>
+					<div class="all__polygon"></div>
+				</div>
+			</div>
+
+			<div class="all__video">
+				<div class="all__container">
+					<div class="all__videoMain">
+						<img class="all__videoimg" src="imgAll/video.svg" alt="video" />
+					</div>
+					<div class="all__point">
+						<img
+							src="imgAll/circle_black.svg"
+							alt="point1"
+							class="all__allImg"
+						/>
+						<img src="/imgAll/circle.svg" alt="point2" class="all__allImg" />
+						<img src="/imgAll/circle.svg" alt="point3" class="all__allImg" />
+						<img src="/imgAll/circle.svg" alt="point4" class="all__allImg" />
+					</div>
+					<div class="all__polygonNew"></div>
+				</div>
+				<div class="all__ultraText">
+					<h2 class="all__ultraTitle">
+						1. Предзаписанные уроки, которые можно пересматривать в любое
+						удобное время
+					</h2>
+					<p class="all__miniText">
+						Каждый урок разбит на короткие видео по темам. В конце каждой темы
+						вас ждет короткие текст или задание на запоминание.
+					</p>
+				</div>
+			</div>
+
+			<div class="all__homework">
+				<div class="all__hometext">
+					<h1 class="all__ultraTitle">
+						2. Домашнее задание, после каждого урока
+					</h1>
+					<p class="all__miniText">
+						С начала курса задания будут приближены к реальности. Например,
+						задачи по Python нужно решать в интерпретаторе Jupyter Notebook. Это
+						настоящая среда разработки, которую вы сможете использовать для
+						своих рабочих задач.
+					</p>
+
+					<p class="all__homeminitext">
+						Чтобы всем ученикам было интересно, задания разбыты на разные уровни
+						сложности. Покажется легко — держи сложнее. Сложно — помогут
+						наставники!
+					</p>
+				</div>
+
+				<div class="all__homeimg">
+					<img
+						class="all__homeworkimg"
+						src="/imgAll/homework.svg"
+						alt="homework"
+					/>
+				</div>
+			</div>
+
+			<div class="all__bond">
+				<img src="/imgAll/bond.svg" alt="bond" />
+				<div class="all__textbond">
+					<h1 class="all__ultraTitle all__margin">
+						3. Обратная связь наставника по домашке, общение с наставниками,
+						одногрупмпниками и преподавателями в Slack
+					</h1>
+					<p class="all__miniText all__margin">
+						Наставники — опытные аналитики данных: они уже прошли путь, который
+						вас ждет, и готовы помочь с любыми трудностями.
+					</p>
+					<img class="all__crown" src="/imgAll/crown.svg" alt="crown" />
+					<p class="all__greentext all__margin">
+						Средняя оценка обратной <br />
+						от наших студентов
+					</p>
+				</div>
+			</div>
+
+			<div class="all__block">
+				<h1 class="all__blocktitle">Курсовые работы и диплом</h1>
+				<p class="all__blocktext">
+					В финале каждого курса внутри профессии, вас ждёт самостоятельный
+					проект. Выполняя его, вы закрепите знания по теме и получите
+					интересный <span class="all__pinkSpan">кейс в портфолио.</span>
+					<br /><br />
+					А в самом конце вас ждет дипломный проект, который объеденит все
+					знания полученные на курсе. Работая над дипломом, вы пройдете
+					<span class="all__pinkSpan">все этапы процесса анализа данных.</span>
+				</p>
+			</div>
+		</section>
+
+		<section class="teacher center">
+			<h1 class="teacher__title">Преподаватели</h1>
+			<div class="teacher__main">
+				<div class="teacher__info">
+					<div class="section__people">
+						<img
+							class="section__img"
+							src="imgSection/alexey.jpg"
+							alt="Alexey"
+						/>
+						<div class="teacher__about">
+							<h6 class="teacher__name">Алексей Никушин</h6>
+							<p class="teacher__whois">Главный автор и преподаватель</p>
+							<p class="teacher__creator">
+								Создатель конференции
+								<a class="section__creatorLink" href="https://matemarketing.ru/"
+									>Матемаркетинг</a
+								>. Экс-руководитель отдела маркетинг- аналитики в «Rambler
+								Group»
+							</p>
+							<div class="section__link">
+								<div class="section__firstLink">
+									<a
+										class="section__eachLink"
+										href="https://www.youtube.com/watch?v=mome3DWQqg0"
+										class="section__social"
+										>Интервью</a
+									><a
+										class="section__eachLink"
+										href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.facebook.com%2Fnikushin.av"
+										class="section__social"
+										>Facebook</a
+									><a
+										class="section__eachLink"
+										href="https://t.me/internetanalytics"
+										class="section__social"
+										>Канал в Telegram</a
+									>
+								</div>
+								<div class="section__secondLink">
+									<a
+										class="section__eachLink"
+										href="https://www.youtube.com/watch?v=Hv8Aw6SSMaM&t=135s"
+										class="section__social"
+										>Выступение на TEDx Talks</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section__people">
+						<img
+							class="section__img"
+							src="imgSection/mihail.jpg"
+							alt="mihail"
+						/>
+						<div class="teacher__about">
+							<h6 class="teacher__name">Михаил Морозов</h6>
+							<p class="teacher__whois">Автор и преподаватель</p>
+							<p class="teacher__creator">Chief Analytics Officer в Skyeng</p>
+							<div class="section__link">
+								<div class="section__firstLink">
+									<a
+										class="section__eachLink"
+										href="https://www.figma.com/exit?url=https%3A%2F%2Fsense23.com%2Fpost%2Ftri-shaga-dlya-kratnogo-rosta-prodazh"
+										class="section__social"
+										>Три шага для кратного роста продаж</a
+									>
+								</div>
+								<div class="section__secondLink">
+									<a
+										class="section__eachLink"
+										href="https://team.skyeng.ru/"
+										class="section__social"
+										>О команде аналитики Skyeng</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section__people">
+						<img
+							class="section__img"
+							src="imgSection/dmitry.jpg"
+							alt="dmitry"
+						/>
+						<div class="teacher__about">
+							<h6 class="teacher__name">Дмитрий Тумайкин</h6>
+							<p class="teacher__whois">Автор и преподаватель</p>
+							<p class="teacher__creator">
+								Маркетолог-практик, эксперт по текстовой аналитике в Excel.
+								Excel VBA энтузиаст, маркетолог, аналитик
+							</p>
+							<div class="section__link">
+								<div class="section__firstLink">
+									<a
+										class="section__eachLink"
+										href="https://semtools.guru/ru/"
+										class="section__social"
+										>Инструменты для Excel</a
+									>
+									<a
+										class="section__eachLink"
+										href="https://semtools.guru/ru/author/"
+										class="section__social"
+										>Выступления</a
+									>
+								</div>
+								<div class="section__secondLink">
+									<a
+										class="section__eachLink"
+										href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.facebook.com%2Ftumaykindmitry"
+										class="section__social"
+										>Facebook</a
+									>
+									<a
+										class="section__eachLink"
+										href="https://t.me/semtools"
+										class="section__social"
+										>Канал в Telegram</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section__people">
+						<img
+							class="section__img"
+							src="imgSection/vitaly.jpg"
+							alt="vitaly"
+						/>
+						<div class="teacher__about">
+							<h6 class="teacher__name">Виталий Черемисинов</h6>
+							<p class="teacher__whois">Автор и преподаватель</p>
+							<p class="teacher__creator">
+								Сo-founder <a class="section__creatorLink" href="#">EXPF</a>
+							</p>
+							<div class="section__link">
+								<div class="section__firstLink">
+									<a
+										class="section__eachLink"
+										href="https://www.youtube.com/watch?v=mfsIZdzS0vg&t=1025s"
+										class="section__social"
+										>Выступление на Метамаркетинг</a
+									>
+								</div>
+								<div class="section__secondLink">
+									<a
+										class="section__eachLink"
+										href="https://t.me/exp_fest"
+										class="section__social"
+										>Канал в Telegram</a
+									>
+								</div>
+								<div class="section__thirdLink">
+									<a
+										class="section__eachLink"
+										href="https://www.youtube.com/watch?v=buLioOybexk&t=382s"
+										class="section__social"
+										>Выступение в Академии Яндекса</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="section__people">
+						<img
+							class="section__img"
+							src="imgTeacher/iskander.jpg"
+							alt="iskander"
+						/>
+						<div class="teacher__about">
+							<h6 class="teacher__name">Искандер Мирмахмадов</h6>
+							<p class="teacher__whois">
+								Автор и преподаватель курса по статистике
+							</p>
+							<p class="teacher__creator">
+								Сo-founder <a class="section__creatorLink" href="#">EXPF</a>
+							</p>
+							<div class="section__link">
+								<div class="section__firstLink">
+									<a
+										class="section__eachLink"
+										href="https://www.youtube.com/watch?v=eA9KY1TxmEg"
+										class="section__social"
+										>Выступление на Метамаркетинг</a
+									>
+								</div>
+								<div class="section__secondLink">
+									<a
+										class="section__eachLink"
+										href="https://t.me/exp_fest"
+										class="section__social"
+										>Канал в Telegram</a
+									>
+								</div>
+								<div class="section__thirdLink">
+									<a
+										class="section__eachLink"
+										href="https://www.youtube.com/watch?v=8CMV5cK83ns"
+										class="section__social"
+										>Лекция по Bootstrap на ExperimentFest</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section__people">
+						<img
+							class="section__img"
+							src="imgTeacher/shagone.jpg"
+							alt="shagone"
+						/>
+						<div class="teacher__about">
+							<h6 class="teacher__name">Шагане Мирзоян</h6>
+							<p class="teacher__whois">Преподаватель курса по Python</p>
+							<p class="teacher__creator">
+								Тимлид продуктовой аналитики в Сбермаркет
+							</p>
+							<div class="section__link">
+								<div class="section__firstLink">
+									<a
+										class="section__eachLink"
+										href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.facebook.com%2Fannieatlassova"
+										class="section__social"
+										>Facebook</a
+									>
+									<a
+										class="section__eachLink"
+										href="https://www.figma.com/exit?url=https%3A%2F%2Fl.facebook.com%2Fl.php%3Fu%3Dhttps%253A%252F%252Ftgclick.ru%252FShn_royal%252F114%253Ffbclid%253DIwAR3C9IVonLLW_JZi82PDzG_D5tke3tEXd5ed5FcGuoh72NqVK2UvzarbwrE%26h%3DAT0B2KiGtZ6S_qTG4Foscy1l7k-crNQmwcWl9eq2tnEw_1l8kWQCtieZPBpKqDA654jh6geshL-0cger_okRj8yT-A4P2cqWWCQdFpFZ8CVxdPGBNNSamuPW0KWpGvgCJYjhdqgMsw"
+										class="section__social"
+										>Канал в Telegram</a
+									>
+								</div>
+								<div class="section__secondLink">
+									<a class="section__eachLink" href="#" class="section__social"
+										>Введение в анализ данных и машинное обучение</a
+									>
+								</div>
+								<div class="section__thirdLink">
+									<a class="section__eachLink" href="#" class="section__social"
+										>Как убедиться, что мы получили результат</a
+									>
+								</div>
+								<div class="section__fourthLink">
+									<img
+										class="teacher__locker"
+										src="/imgTeacher/locker.svg"
+										alt="teacher__locker"
+									/>
+									<a class="section__eachLink" href="#" class="section__social"
+										>Проектирование и проведение A/B-тестов <br />
+										на Product Mindset Advanced</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section__people">
+						<img class="section__img" src="/imgTeacher/anna.jpg" alt="anna" />
+						<div class="teacher__about">
+							<h6 class="teacher__name">Анна Атласова</h6>
+							<p class="teacher__whois">Автор и преподаватель курса по SQL</p>
+							<p class="teacher__creator">
+								Business Intelligence Analyst в Амазон. Co-Founder стартап
+								коммьюнити «Startup Баня»
+							</p>
+							<div class="section__link">
+								<div class="section__firstLink">
+									<a
+										class="section__eachLink"
+										href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.facebook.com%2Fannieatlassova"
+										class="section__social"
+										>Facebook</a
+									>
+									<a
+										class="section__eachLink"
+										href="https://telegram.me/startupbanya"
+										class="section__social"
+										>Канал в Telegram</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section__people">
+						<img
+							class="section__img"
+							src="/imgTeacher/vladislav.jpg"
+							alt="vladislav"
+						/>
+						<div class="teacher__about">
+							<h6 class="teacher__name">Владислав Козлов</h6>
+							<p class="teacher__whois">Автор и преподаватель курса по SQL</p>
+							<p class="teacher__creator">
+								Ведущий продуктовый аналитик в Skyeng
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="teacher__block">
+					<h2 class="teacher__freeTitle">Бесплатная консультация</h2>
+					<p class="teacher__freeText">
+						Познакомимся, поможем понять, работает ли курс на ваши цели.
+					</p>
+
+					<form action="#" class="teacher__form">
+						<input
+							class="teacher__eachInput"
+							placeholder="+ 7"
+							type="number"
+							class="teacher__input"
+						/>
+						<input
+							class="teacher__eachInput"
+							placeholder="Эл. почта"
+							type="email"
+							class="teacher__input"
+						/>
+						<input
+							class="teacher__eachInput"
+							placeholder="Имя"
+							type="text"
+							class="teacher__input"
+						/>
+						<button class="teacher__button">Оставить заявку</button>
+					</form>
+					<p class="teacher__miniText">
+						Оставляя заявку, вы принимаете <br />
+						условия соглашения
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="promise center">
+			<h1 class="promise__title">
+				Ваше трудоустройство — наш главный показатель успешности
+			</h1>
+			<div class="promise__block">
+				<img src="/imgPromise/mark.svg" alt="mark" />
+				<div class="promise__miniBlock">
+					<h6 class="promise__text">
+						Я провожу собеседования каждый день. И я знаю, что устроиться на
+						работу непросто. Даже после такого прекрасного курса как наш.
+						Поэтому мы сделаем все, чтобы увеличить ваши шансы: подготовим к
+						собеседованию, научим держаться молодцом, оформим привлекательное
+						портфолио и поможем найти лучшую вакансию!
+					</h6>
+					<p class="promise__miniText">
+						Харитон Матвеев, Co-founder Skyeng & CEO Skills
+					</p>
+				</div>
+				<img class="promise__man" src="/imgPromise/man.png" alt="man" />
+			</div>
+
+			<div class="promise__megaBlock promise-center">
+				<div class="promise__person">
+					<p class="promise__name promise__name_1">Со студента</p>
+					<p class="promise__name promise__name_2">
+						С нас, после окончания курса
+					</p>
+					<p class="promise__name promise__name_3">Срок</p>
+				</div>
+				<div class="promise__description">
+					<p class="promise__bigText promise__bigText_1">
+						Вера в свои возможности, старание и терпение
+					</p>
+					<p class="promise__bigText promise__bigText_2">
+						Ментор по трудоустройству
+					</p>
+					<p class="promise__bigText promise__bigText_3">
+						Разберет вопросы рекрутеров, успокоит перед реальным собеседованием,
+						поможет подготовиться к собеседованию в определенную компанию.
+						Не даст сдаться, поможет дожать и найти работу.
+					</p>
+					<p class="promise__bigText promise__bigText_4">
+						Оформление и подготовка портфолио
+					</p>
+					<p class="promise__bigText promise__bigText_5">
+						Покажем, как показать курсовую и диплом в портфолио. Научим быстро
+						наполнять портфолио реальными проектами, чтобы вы получали реальную
+						практику.
+					</p>
+					<p class="promise__bigText promise__bigText_6">
+						Тестовое собеседование
+					</p>
+					<p class="promise__bigText promise__bigText_7">
+						HR специалисты проведут для вас собеседование на вакансию аналитика
+						так, как это бывает по-настоящему.
+					</p>
+					<p class="promise__bigText promise__bigText_8">
+						Разбор частых ошибок на собеседовании аналитиков
+					</p>
+					<p class="promise__bigText promise__bigText_9">
+						Покажем на практике, когда на первый взгляд хорошие и крепки
+						собеседования, были провальны. Разберем частые ошибки и научим их
+						избегать.
+					</p>
+					<p class="promise__bigText promise__bigText_10">
+						Если делать все правильно, поиск работы junior-аналитика без опыта
+						работы занимает 2-3 месяца
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="skill center">
+			<div class="skill__main">
+				<div class="skill__block">
+					<h1 class="skill__title">
+						<span class="skill__span">Программа</span> <br />
+						12 месяцев <br />
+						8 часов в неделю
+					</h1>
+					<div class="skill__mainBlock">
+						<h6 class="skill__miniTitle">Выпускник умеет</h6>
+
+						<div class="skill__textBlock">
+							<div class="skill__mark">
+								<p class="skill__miniMark">—</p>
+								<p class="skill__text">
+									Переводить проблему с языка бизнеса на язык аналитических
+									задач
+								</p>
+							</div>
+							<div class="skill__mark">
+								<p class="skill__miniMark">—</p>
+								<p class="skill__text">
+									Выбирать показатели, которые лучше всего отражают результат
+									аналитических экспериментов
+								</p>
+							</div>
+							<div class="skill__mark">
+								<p class="skill__miniMark">—</p>
+								<p class="skill__text">
+									Выбирать нужный тип информации, собрать её и подготавливать
+									для анализа
+								</p>
+							</div>
+							<div class="skill__mark">
+								<p class="skill__miniMark">—</p>
+								<p class="skill__text">
+									Выбирать способ анализа и эффективный инструмент
+								</p>
+							</div>
+							<div class="skill__mark">
+								<p class="skill__miniMark">—</p>
+								<p class="skill__text">Анализировать разными инструментами</p>
+							</div>
+							<div class="skill__mark">
+								<p class="skill__miniMark">—</p>
+								<p class="skill__text">
+									Презентовать результат работы заказчикам
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="skill__allImg">
+					<img
+						src="imgSkill/b-system.svg"
+						alt="b-system"
+						class="skill__img skill__img_1"
+					/>
+					<img
+						src="imgSkill/statistics.svg"
+						alt="statistics"
+						class="skill__img skill__img_2"
+					/>
+					<img
+						src="imgSkill/excel.svg"
+						alt="excel"
+						class="skill__img skill__img_3"
+					/>
+					<img
+						src="imgSkill/web.svg"
+						alt="web"
+						class="skill__img skill__img_4"
+					/>
+					<img
+						src="imgSkill/SQL.svg"
+						alt="SQL"
+						class="skill__img skill__img_5"
+					/>
+					<img
+						src="imgSkill/python.svg"
+						alt="python"
+						class="skill__img skill__img_6"
+					/>
+				</div>
+			</div>
+
+			<div class="skill__sql">
+				<div class="skill__sqlAbout">
+					<h6 class="skill__sqlTitle">Курс 1</h6>
+					<p class="skill__sqlName">
+						SQL для анализа <br />
+						данных
+					</p>
+					<img class="skill__sqlImg" src="/imgSkill/people.svg" alt="people" />
+				</div>
+
+				<div class="skill__sqlBlock">
+					<div class="skill__sqlModule">
+						<p class="skill__first">1 модуль</p>
+						<p class="skill__second">Введение в SQL и основы синтаксиса.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">2 модуль</p>
+						<p class="skill__second">
+							Генерация новых признаков и очистка данных.
+						</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">3 модуль</p>
+						<p class="skill__second">Агрегатные функции.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">4 модуль</p>
+						<p class="skill__second">Объединение таблиц.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">5 модуль</p>
+						<p class="skill__second">Подзапросы и WITH.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">6 модуль</p>
+						<p class="skill__second">Оконные функции.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">7 модуль</p>
+						<p class="skill__second">
+							Воркшоп: проводим аналитическое исследование<br />и решаем
+							бизнес-проблему с помощью SQL.
+						</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">8 модуль</p>
+						<p class="skill__second">
+							Создание, изменение, удаление данных в таблице, <br />
+							создание индексов.
+						</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">9 модуль</p>
+						<p class="skill__second">Временные таблицы.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">10 модуль</p>
+						<p class="skill__second">Основы оптимизации.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">Курсовая</p>
+						<p class="skill__second">Аналитический проект в SQL.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="skill__special"></div>
+
+			<div class="skill__analysis">
+				<div class="skill__sqlAbout">
+					<h6 class="skill__sqlTitle">Курс 2</h6>
+					<p class="skill__analysisName">
+						Анализ данных <br />
+						в Excel
+					</p>
+				</div>
+
+				<div class="skill__analysisBlock">
+					<div class="skill__sqlModule">
+						<p class="skill__first">1 модуль</p>
+						<p class="skill__second">Сбор и преобразование данных в Excel.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">2 модуль</p>
+						<p class="skill__second">Работа с функциями и формулами.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">3 модуль</p>
+						<p class="skill__second">Агрегатные функции.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">4 модуль</p>
+						<p class="skill__second">
+							Визуализация в Excel. Методы анализа данных.
+						</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">Курсовая</p>
+						<p class="skill__second">Выполняем аналитический проект.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="skill__special"></div>
+
+			<div class="skill__python">
+				<div class="skill__sqlAbout">
+					<h6 class="skill__sqlTitle">Курс 3</h6>
+					<p class="skill__analysisName">Python для анализа <br />данных</p>
+				</div>
+
+				<div class="skill__pythonBlock">
+					<div class="skill__sqlModule">
+						<p class="skill__first">1 модуль</p>
+						<p class="skill__second">Синтаксис Python.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">2 модуль</p>
+						<p class="skill__second">Библиотеки для анализа в Python.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">3 модуль</p>
+						<p class="skill__second">Визуализация данных в Python.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">4 модуль</p>
+						<p class="skill__second">
+							Python для анализа статистических тестов.
+						</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">5 модуль</p>
+						<p class="skill__second">Получение данных из разных источников.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">6 модуль</p>
+						<p class="skill__second">Прогнозирование.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">Курсовая</p>
+						<p class="skill__second">Прогнозирование прибыли.</p>
+					</div>
+					<img class="skill__pythonWow" src="/imgSkill/wow.svg" alt="wow" />
+				</div>
+			</div>
+
+			<div class="skill__special"></div>
+
+			<div class="skill__powerBI">
+				<div class="skill__sqlAbout">
+					<h6 class="skill__sqlTitle">Курс 4</h6>
+					<p class="skill__analysisName">
+						Визуализация в<br />
+						PowerBI
+					</p>
+				</div>
+
+				<div class="skill__powerBIBlock">
+					<div class="skill__sqlModule">
+						<p class="skill__first">1 модуль</p>
+						<p class="skill__second">Загрузка и преобразование данных.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">2 модуль</p>
+						<p class="skill__second">Моделирование и анализ данных.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">3 модуль</p>
+						<p class="skill__second">
+							Визуализация данных и работа с отчетами.
+						</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">4 модуль</p>
+						<p class="skill__second">Построение комплексных отчетов.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">Курсовая</p>
+						<p class="skill__second">
+							Дашборд для отдела с ключевыми метриками.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="skill__special"></div>
+
+			<div class="skill__pythonStat">
+				<div class="skill__pythonStatAbout">
+					<h6 class="skill__sqlTitle">Курс 5</h6>
+					<p class="skill__pythonStatName">Статистика на Python</p>
+					<img
+						class="skill__pythonStatImg"
+						src="/imgSkill/businessCase.svg"
+						alt="businessCase"
+					/>
+				</div>
+
+				<div class="skill__pythonStatBlock">
+					<div class="skill__sqlModule">
+						<p class="skill__first">1 модуль</p>
+						<p class="skill__second">Основы статистики.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">2 модуль</p>
+						<p class="skill__second">
+							Нормальное распределение. Квартили <br />
+							распределения и график box-plot.
+						</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">3 модуль</p>
+						<p class="skill__second">Центральная предельная теорема.</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">4 модуль</p>
+						<p class="skill__second">
+							Доверительные интервалы для среднего. Понятие <br />
+							о задачах, классификации и ошибках. Метрики <br />
+							качества классификации.
+						</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">5 модуль</p>
+						<p class="skill__second">
+							Проверка статистических гипотез. <br />
+							Непараметрические тесты.
+						</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">Курсовая</p>
+						<p class="skill__second">Анализ А/В теста.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="skill__special"></div>
+
+			<div class="skill__analytics">
+				<div class="skill__pythonStatAbout">
+					<h6 class="skill__sqlTitle">Курс 6</h6>
+					<p class="skill__pythonStatName">
+						Аналитика в продукте <br />
+						и маркетинге
+					</p>
+				</div>
+
+				<div class="skill__analyticsBlock">
+					<div class="skill__sqlModule">
+						<p class="skill__first">1 модуль</p>
+						<p class="skill__second">
+							Маркетинговая аналитика: воронка, конверсии, <br />
+							модели атрибуции.
+						</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">2 модуль</p>
+						<p class="skill__second">
+							Продуктовая аналитика: метрики продукта, <br />
+							конверсии, валидация продуктовых гипотез — <br />
+							А/В-тесты.
+						</p>
+					</div>
+					<div class="skill__sqlModule">
+						<p class="skill__first">3 модуль</p>
+						<p class="skill__second">Планирование ресурсов, HR-планирование.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="skill__footer">
+				<h2 class="skill__footerTitle">
+					Полная программа курса и бесплатная консультация
+				</h2>
+				<h3 class="skill__footerText">
+					Пришлем программу и поможем понять, работает ли курс на ваши цели.
+					Подробно ответим на все ваши вопросы.
+				</h3>
+				<form class="skill__footerForm" action="#">
+					<input placeholder="+ 7" type="number" class="skill__footerInput" />
+					<input
+						placeholder="Эл. почта"
+						type="email"
+						class="skill__footerInput"
+					/>
+					<input placeholder="Имя" type="text" class="skill__footerInput" />
+					<button class="skill__button">Оставить заявку</button>
+				</form>
+			</div>
+		</section>
+
+		<section class="comment center">
+			<h1 class="comment__title">Отзывы выпускников</h1>
+			<div class="comment__bigBlock">
+				<div class="comment__block">
+					<div class="comment__smallBlock">
+						<img src="/imgComment/sign.svg" alt="sign" />
+						<div class="comment__miniBlock">
+							<p class="comment__text">
+								Я работал системным администратором в финансовой компании
+								и изучал питон самостоятельно. Учил английский в Skyeng.
+								<br /><br />
+								Когда увидел рекламу курсов, сразу решил записаться — нравилось
+								учится в Skyeng — плюс хотелось систематизировать уже полученные
+								знания. <br /><br />
+								Так как я имел некоторый опыт программирования — то мне легко
+								давались первая часть курса и домашние задания не занимали много
+								времени. И вот начиная со второй части — уже была новая
+								информация, пришлось включаться и проводить за компьютером
+								больше времени. <br /><br />
+								Еще до конца курса удалось применить знания на практике —
+								помогал аналитику в компании сделать объемный отчет, который ему
+								предстояло сделать в excel. При помощи python — сделал за пару
+								часов. <br /><br />
+								Ближе к концу курса — увидел вакансию <br />
+								на hh и сразу откликнулся. Два этапа собеседования заняли пару
+								дней и вот я в команде Skyeng:) <br /><br />
+								P.S. <br />Вообще изначально я и рассматривал курс в Skyeng —
+								как длительное собеседование :–) <br />
+								Получилось успешно.
+							</p>
+							<p class="comment__whoIs">Сисадмин → Аналитик в Skyeng</p>
+							<div class="comment__microBlock">
+								<img src="/imgComment/andrey.svg" alt="andrey" />
+								<div class="comment__lastBlock">
+									<p class="comment__name">Андрей Шаршов</p>
+									<a
+										class="comment__link"
+										href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.instagram.com%2Feugeniamaslova%2F"
+										>vk</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="comment__smallBlock">
+						<img src="/imgComment/sign.svg" alt="sign" />
+
+						<div class="comment__miniBlock">
+							<p class="comment__text comment__text_bigger">
+								Очень классно, когда эксперт подсказывает, что конкретно
+								в логике написания не так, или почему код не сработал, раскрывая
+								«как» он работает и какую последовательность функций делает,
+								а не что конкретно надо написать или заменить.
+							</p>
+							<div class="comment__microBlock">
+								<img src="/imgComment/oleg.svg" alt="oleg" />
+								<div class="comment__lastBlock">
+									<p class="comment__name">Олег Иванов</p>
+									<a
+										class="comment__link"
+										href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.instagram.com%2Feugeniamaslova%2F"
+										>vk</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="comment__block comment__block_gap">
+					<div class="comment__smallBlock">
+						<img src="/imgComment/sign.svg" alt="sign" />
+
+						<div class="comment__miniBlock">
+							<p class="comment__text comment__text_bigger">
+								Даже не знаю, что можно ещё добавить. Хорошие вебинары, отличная
+								поддержка и интересные ДЗ. Все суперрр))
+							</p>
+							<div class="comment__microBlock">
+								<img src="/imgComment/evgenia.svg" alt="evgenia" />
+								<div class="comment__lastBlock">
+									<p class="comment__name">Евгения Литвинова</p>
+									<a
+										class="comment__link"
+										href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.instagram.com%2Feugeniamaslova%2F"
+										>instagram</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="comment__smallBlock">
+						<img src="/imgComment/sign.svg" alt="sign" />
+
+						<div class="comment__miniBlock">
+							<p class="comment__text">
+								Понравился подход и организация: здесь тебе и воркшоп, и онлайн
+								уроки (где подробно изложены ноутбуки с заданиями, формат
+								общения на конференции — чувствуешь себя комфортно) А также
+								чувствуется помощь со стороны наставников и забота координатора
+								(напоминания, проверка, всё ли настроено / скачано / сделано)
+								<br /><br />
+								Сам курс классно синхронизирован с тем, что параллельно
+								успеваешь обучиться новому инструменту и сразу видишь, какие
+								задачи можно решить (можно идти начинать применять в работе).
+								<br /><br />
+								Курс логичен и структурирован, как мне кажется: от основ к AB
+								тестами и введению в Data Science. Раньше я только мог
+								представить, что как-то коснусь этого, а тут вот. <br /><br />
+								Ещё отмечу, что преподают курс аналитики (ну это скорее для меня
+								ценно, т.к. работаю в этой области) Так как люди с опытом работы
+								именно в этом направлении, сразу чувствуется тоже)))»
+							</p>
+							<div class="comment__microBlock">
+								<img src="/imgComment/konst.svg" alt="konst" />
+								<div class="comment__lastBlock">
+									<p class="comment__name">Константин Остапенко</p>
+									<a
+										class="comment__link"
+										href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100001270329201"
+										>facebook</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="comment__smallBlock">
+						<img src="/imgComment/sign.svg" alt="sign" />
+
+						<div class="comment__miniBlock">
+							<p class="comment__text comment__text_bigger">
+								Каждый раз, выполняя домашку, думаю, кааак я здесь оказалась?!
+								Я же не айтишник от слова совсем! Но после выполнения заданий
+								я понимаю, что всё не зря, что я действительно учусь
+								и понимаю то, что делаю! Это потрясающе! Это вдохновляет!!
+							</p>
+							<div class="comment__microBlock">
+								<img src="/imgComment/elena.svg" alt="elena" />
+								<div class="comment__lastBlock">
+									<p class="comment__name">Елена Макарова</p>
+									<a class="comment__link" href="https://vk.com/vi4enzzo">vk</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="price center">
+			<div class="price__block">
+				<h1 class="price__title">Стоимость</h1>
+				<div class="price__miniBlock">
+					<div class="price__text">
+						<h6 class="price__mainText">Единоразовый платеж</h6>
+						<p class="price__notMainText">
+							Оплатить профессию полностью за один раз со скидкой.
+						</p>
+					</div>
+					<div class="price__text">
+						<h6 class="price__mainPrice">70 550 ₽</h6>
+						<div class="price__notMainPrice">
+							<p class="price__discount">−15%</p>
+							<p class="price__discountPrice">83 000 ₽</p>
+							<img class="price__line" src="/imgPrice/line.svg" alt="line" />
+						</div>
+					</div>
+				</div>
+				<div class="price__miniBlock">
+					<div class="price__text">
+						<h6 class="price__mainText">Рассрочка без переплат</h6>
+						<p class="price__notMainText">
+							На 12 месяцев через «Тинькофф Банк » или рассрочку «Мокка». Полная
+							сумма 83 000 ₽.
+						</p>
+					</div>
+					<div class="price__text">
+						<h6 class="price__mainPrice">6 900 ₽</h6>
+						<div class="price__notMainPrice">
+							<p class="price__discount">в месяц</p>
+						</div>
+					</div>
+				</div>
+				<p class="price__mainText">Бесплатная консультация</p>
+				<p class="price__addText">
+					Ответим на вопросы о курсе и расскажем про оплату и рассрочку
+				</p>
+
+				<form class="price__form" action="#">
+					<input placeholder="+ 7" type="number" class="price__input" />
+					<input placeholder="Эл. почта" type="email" class="price__input" />
+					<input placeholder="Имя" type="text" class="price__input" />
+					<button class="price__button">Оставить заявку</button>
+				</form>
+				<p class="price__lastText">
+					Оставляя заявку, вы принимаете условия соглашения
+				</p>
+			</div>
+		</section>
+
+		<footer class="directions center">
+			<h1 class="directions__title">Остались вопросы?</h1>
+			<div class="directions__block">
+				<div class="directions__smallBlock">
+					<div class="directions__miniBlock">
+						<p class="directions__mainText">
+							Стану ли я аналитиком после курса?
+						</p>
+						<p class="directions__notMainText">
+							На курсе мы рассматриваем аналитические задачи и решаем реальные
+							бизнес-проблемы. Инструментарий SQL — один из самых важных навыков
+							для аналитика данных, но не единственный. Однако, если у вас есть
+							понимание и небольшой опыт в аналитике, то после прохождения
+							программы ваш скиллсет позволит вам решать реальные рабочие задачи
+							аналитика данных.
+						</p>
+					</div>
+					<div class="directions__miniBlock">
+						<p class="directions__mainText">
+							Если не понравится, можно вернуть деньги?
+						</p>
+						<p class="directions__notMainText">
+							Если в первые две недели курса что-то пойдет не так, мы вернем вам
+							полную сумму, которую вы заплатите за курс. Если вы захотите
+							отказаться от обучения по истечении двух недель, мы вернем сумму
+							за вычетом стоимости пройденных занятий.
+						</p>
+					</div>
+				</div>
+				<div class="directions__smallBlock">
+					<div class="directions__miniBlock">
+						<p class="directions__mainText">
+							Какие знания понадобятся для учебы?
+						</p>
+						<p class="directions__notMainText">
+							Для старта не потребуется никаких навыков в аналитике и опыта
+							программирования — начинаем обучение с базовых основ.
+						</p>
+					</div>
+					<div class="directions__miniBlock">
+						<p class="directions__mainText">
+							Какая техника и программы нужны для обучения?
+						</p>
+						<p class="directions__notMainText">
+							В течение курса мы будем работать в среде для написания
+							SQL-запросов, Zoom и Slack. Перед началом обучения мы отправим
+							всем гайд по настройке всех необходимых для обучения инструментов.
+							Если возникнут какие-то сложности, наши наставники индивидуально
+							помогут настроить окружение, созвонившись с вами.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="directions__link">
+				<a href="index.html"
+					><img src="/imgDirections/skyskills.svg" alt="skyskills"
+				/></a>
+				<div class="directions__lastLink">
+					<a href="#" type="email" class="directions__email"
+						>skills@skyeng.ru</a
+					>
+					<a href="#" type="number" class="directions__number"
+						>+7 495 137-85-99</a
+					>
+				</div>
+			</div>
+		</footer>
+
+		<section class="footer center">
+			<a class="footer__lastMiniLink" href="#">© Skyskills, 2021</a>
+			<div class="footer__other">
+				<a href="" class="footer__otherLink"> Программа курса </a>
+				<a href="" class="footer__otherLink"> Политика обработки данных </a>
+				<a href="" class="footer__otherLink"> Условия использования </a>
+				<a href="" class="footer__otherLink">Договор-оферта</a>
+			</div>
+		</section> -->
+	</body>
+</html>

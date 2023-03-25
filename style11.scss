@@ -1,0 +1,79 @@
+.directions {
+	&__title {
+		font-weight: 400;
+		font-size: 56px;
+		line-height: 115%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-top: 64px;
+		padding-bottom: 32px;
+	}
+	&__block {
+		display: flex;
+		gap: 140px;
+		padding-bottom: 120px;
+	}
+	&__smallBlock {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+	&__miniBlock {
+		width: 460px;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+	&__mainText {
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 135%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+	&__notMainText {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+	&__link {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 25px;
+	}
+	&__lastLink {
+		display: flex;
+		gap: 16px;
+	}
+	&__email {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		text-decoration: none;
+		&:hover {
+			cursor: pointer;
+			color: gray;
+		}
+	}
+	&__number {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		text-decoration: none;
+		&:hover {
+			cursor: pointer;
+			color: gray;
+		}
+	}
+}

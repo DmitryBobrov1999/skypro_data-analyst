@@ -1,0 +1,77 @@
+.directions__title {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 115%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+.directions__block {
+  display: flex;
+  gap: 140px;
+  padding-bottom: 120px;
+}
+.directions__smallBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.directions__miniBlock {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.directions__mainText {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.directions__notMainText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.directions__link {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.directions__lastLink {
+  display: flex;
+  gap: 16px;
+}
+.directions__email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  text-decoration: none;
+}
+.directions__email:hover {
+  cursor: pointer;
+  color: gray;
+}
+.directions__number {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  text-decoration: none;
+}
+.directions__number:hover {
+  cursor: pointer;
+  color: gray;
+}/*# sourceMappingURL=style11.css.map */
