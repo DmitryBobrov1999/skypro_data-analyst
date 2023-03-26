@@ -32,9 +32,14 @@
 		padding-bottom: 32px;
 		width: 960px;
 	}
+	&__secondSpan {
+		display: flex;
+		flex-wrap: wrap;
+	}
 
 	&__figure {
 		display: flex;
+		padding-bottom: 67px;
 		justify-content: space-between;
 		align-items: center;
 		padding-bottom: 67px;

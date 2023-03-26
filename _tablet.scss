@@ -200,4 +200,57 @@
 			display: inline;
 		}
 	}
+
+	.info {
+		&__title {
+			padding-top: 64px;
+			font-size: 48px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+		}
+		&__img {
+			width: 265px;
+			height: 40px;
+		}
+		&__span {
+			display: flex;
+			flex-wrap: wraps;
+		}
+		&__text {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 32px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			padding-bottom: 32px;
+			width: 620px;
+		}
+		&__secondSpan {
+			display: inline;
+		}
+		&__figure {
+			display: flex;
+			padding-bottom: 67px;
+			flex-wrap: wrap;
+			gap: 33px;
+			padding-bottom: 48px;
+		}
+		&__footer {
+			width: 620px;
+		}
+		&__form {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		padding-top: 32px;
+	}
+	&__input {
+		width: auto;
+	}
+	&__button {
+		width: auto;
+	}
+	}
+	
 }
