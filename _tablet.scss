@@ -131,4 +131,73 @@
 			z-index: 1;
 		}
 	}
+
+	.section {
+		&__title {
+			font-weight: 400;
+			font-size: 48px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+			margin-top: 72px;
+			width: 620px;
+		}
+		&__info {
+			display: grid;
+			grid-template-columns: repeat(6, 1fr);
+			margin-top: 32px;
+			gap: 40px;
+			margin-bottom: 32px;
+		}
+		&__button {
+			margin-bottom: 48px;
+		}
+	}
+
+	.about {
+		&__title {
+			font-weight: 400;
+			font-size: 48px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			padding-top: 40px;
+			padding-bottom: 24px;
+		}
+		&__text {
+			width: 620px;
+			padding-bottom: 48px;
+		}
+
+		&__skills {
+			display: flex;
+			flex-direction: column;
+			gap: 48px;
+			padding-bottom: 48px;
+		}
+		&__check {
+			width: 620px;
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+		}
+		&__button {
+			width: 620px;
+		}
+		&__buttonSpan {
+			display: none;
+		}
+		&__name {
+			&_padding {
+				margin-bottom: -28px;
+			}
+		}
+		&__wrap {
+			display: none;
+		}
+		&__newWrap {
+			display: inline;
+		}
+	}
 }

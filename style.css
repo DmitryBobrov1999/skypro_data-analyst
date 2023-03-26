@@ -389,7 +389,7 @@ body {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #ffffff;
   padding-top: 56px;
-  padding-bottom: 16px;
+  padding-bottom: 24px;
 }
 .about__span {
   flex-wrap: wrap;
@@ -407,6 +407,13 @@ body {
   padding-bottom: 40px;
 }
 .about__checkbox {
+  display: none;
+}
+.about__wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about__newWrap {
   display: none;
 }
 .about__fake {
@@ -2177,5 +2184,65 @@ body {
     transform: rotate(-3deg);
     word-spacing: -4px;
     z-index: 1;
+  }
+  .section__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    margin-top: 72px;
+    width: 620px;
+  }
+  .section__info {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 32px;
+    gap: 40px;
+    margin-bottom: 32px;
+  }
+  .section__button {
+    margin-bottom: 48px;
+  }
+  .about__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    padding-top: 40px;
+    padding-bottom: 24px;
+  }
+  .about__text {
+    width: 620px;
+    padding-bottom: 48px;
+  }
+  .about__skills {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-bottom: 48px;
+  }
+  .about__check {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .about__button {
+    width: 620px;
+  }
+  .about__buttonSpan {
+    display: none;
+  }
+  .about__name_padding {
+    margin-bottom: -28px;
+  }
+  .about__wrap {
+    display: none;
+  }
+  .about__newWrap {
+    display: inline;
   }
 }/*# sourceMappingURL=style.css.map */
