@@ -29,8 +29,13 @@
   padding-bottom: 32px;
   width: 960px;
 }
+.info__secondSpan {
+  display: flex;
+  flex-wrap: wrap;
+}
 .info__figure {
   display: flex;
+  padding-bottom: 67px;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 67px;
