@@ -591,8 +591,7 @@ body {
   padding-bottom: 24px;
 }
 .info__img {
-  width: 392px;
-  height: 59.5px;
+  padding-top: 2px;
 }
 .info__text {
   font-style: normal;
