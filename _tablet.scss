@@ -268,7 +268,8 @@
 			display: flex;
 			flex-direction: column-reverse;
 			position: relative;
-			max-width: 640px;
+			width: 640px;
+			margin-bottom: 33px;
 		}
 		&__polygon {
 			display: none;
@@ -277,10 +278,12 @@
 			display: none;
 		}
 		&__img {
-			background-size: 364px 620px;
+			width: 620px;
+			height: 364px;
 		}
 		&__workshopimg {
 			width: 620px;
+			height: 364px;
 		}
 		&__second {
 			width: 620px;
@@ -303,9 +306,11 @@
 		}
 		&__videoMain {
 			width: 620px;
+			height: 442px;
 		}
 		&__videoimg {
 			width: 620px;
+			height: 442px;
 		}
 		&__point {
 			display: none;
@@ -330,6 +335,7 @@
 		}
 		&__homeworkimg {
 			width: 620px;
+			height: 512px;
 		}
 		&__tabletHomeText {
 			display: flex;

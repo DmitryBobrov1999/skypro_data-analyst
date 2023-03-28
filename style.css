@@ -2327,7 +2327,8 @@ body {
     display: flex;
     flex-direction: column-reverse;
     position: relative;
-    max-width: 640px;
+    width: 640px;
+    margin-bottom: 33px;
   }
   .all__polygon {
     display: none;
@@ -2336,10 +2337,12 @@ body {
     display: none;
   }
   .all__img {
-    background-size: 364px 620px;
+    width: 620px;
+    height: 364px;
   }
   .all__workshopimg {
     width: 620px;
+    height: 364px;
   }
   .all__second {
     width: 620px;
@@ -2362,9 +2365,11 @@ body {
   }
   .all__videoMain {
     width: 620px;
+    height: 442px;
   }
   .all__videoimg {
     width: 620px;
+    height: 442px;
   }
   .all__point {
     display: none;
@@ -2389,6 +2394,7 @@ body {
   }
   .all__homeworkimg {
     width: 620px;
+    height: 512px;
   }
   .all__tabletHomeText {
     display: flex;
