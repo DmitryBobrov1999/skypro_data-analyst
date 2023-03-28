@@ -117,7 +117,12 @@
 		display: flex;
 		gap: 40px;
 	}
-
+	&__tabletHomeText {
+		display: none;
+	}
+	&__ultraTabletText {
+		display: none;
+	}
 	&__hometext {
 		display: flex;
 		flex-direction: column;
@@ -126,7 +131,9 @@
 		gap: 16px;
 		margin-bottom: 224px;
 	}
-
+	&__ultraText {
+		display: block;
+	}
 	&__homeminitext {
 		font-style: normal;
 		font-weight: 400;
@@ -152,7 +159,9 @@
 		flex-direction: column;
 		gap: 16px;
 	}
-
+	&__tabletTextBond {
+		display: none;
+	}
 	&__crown {
 		width: 139px;
 		height: 90px;
@@ -179,6 +188,9 @@
 		background: #f9ebff;
 		border-radius: 20px;
 		margin-bottom: 120px;
+	}
+	&__tabletBlock {
+		display: none;
 	}
 	&__blocktitle {
 		font-style: normal;
