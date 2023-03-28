@@ -106,6 +106,12 @@
   display: flex;
   gap: 40px;
 }
+.all__tabletHomeText {
+  display: none;
+}
+.all__ultraTabletText {
+  display: none;
+}
 .all__hometext {
   display: flex;
   flex-direction: column;
@@ -113,6 +119,9 @@
   width: 360px;
   gap: 16px;
   margin-bottom: 224px;
+}
+.all__ultraText {
+  display: block;
 }
 .all__homeminitext {
   font-style: normal;
@@ -135,6 +144,9 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+.all__tabletTextBond {
+  display: none;
 }
 .all__crown {
   width: 139px;
@@ -160,6 +172,9 @@
   background: #f9ebff;
   border-radius: 20px;
   margin-bottom: 120px;
+}
+.all__tabletBlock {
+  display: none;
 }
 .all__blocktitle {
   font-style: normal;
