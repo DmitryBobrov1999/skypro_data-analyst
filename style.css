@@ -1111,6 +1111,7 @@ body {
   padding-bottom: 16px;
 }
 .teacher__freeText {
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1119,6 +1120,9 @@ body {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
   padding-bottom: 24px;
+}
+.teacher__tabletFreeText {
+  display: none;
 }
 .teacher__form {
   display: flex;
@@ -1226,6 +1230,7 @@ body {
   left: 1092px;
 }
 .promise__text {
+  display: block;
   font-weight: 400;
   font-size: 32px;
   line-height: 135%;
@@ -1235,13 +1240,20 @@ body {
   padding-bottom: 16px;
   width: 620px;
 }
+.promise__tabletText {
+  display: none;
+}
 .promise__miniText {
+  display: block;
   font-weight: 400;
   font-size: 18px;
   line-height: 145%;
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+.promise__tabletMiniText {
+  display: none;
 }
 .promise .promise-center {
   margin-left: calc(50% - 480px);
@@ -1254,6 +1266,9 @@ body {
   display: flex;
   gap: 40px;
   padding: 32px 100px 48px 40px;
+}
+.promise__tabletMegaBlock {
+  display: none;
 }
 .promise__name {
   font-weight: 500;
@@ -2452,12 +2467,13 @@ body {
     width: 140px;
   }
   .all__tabletBlock {
+    width: 640px;
     display: flex;
     flex-direction: column;
     gap: 24px;
     background: #f9ebff;
     border-radius: 20px;
-    padding: 40px 0 40px 10px;
+    padding: 40px 10px 40px 10px;
     margin-bottom: 88px;
   }
   .all__block {
@@ -2471,5 +2487,165 @@ body {
     font-size: 32px;
     line-height: 135%;
     width: 418px;
+  }
+  .teacher br {
+    display: none;
+  }
+  .teacher__main {
+    display: flex;
+    flex-direction: column;
+  }
+  .teacher__block {
+    padding: 32px 40px 32px 40px;
+  }
+  .teacher__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    margin-bottom: 32px;
+  }
+  .teacher__about {
+    width: 436px;
+  }
+  .teacher__name {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+  }
+  .teacher__creator {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+  }
+  .teacher__block {
+    width: 640px;
+  }
+  .teacher__freeText {
+    display: none;
+  }
+  .teacher__freeTitle {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    padding-bottom: 8px;
+  }
+  .teacher__tabletFreeText {
+    display: block;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    padding-bottom: 32px;
+    width: 560px;
+  }
+  .teacher__eachInput {
+    width: 560px;
+    height: 64px;
+  }
+  .teacher__button {
+    width: 560px;
+    height: 64px;
+  }
+  .promise__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    width: 620px;
+    padding-bottom: 32px;
+    padding-top: 40px;
+  }
+  .promise__text {
+    display: none;
+  }
+  .promise__tabletText {
+    display: block;
+    width: 540px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .promise__miniText {
+    display: none;
+  }
+  .promise__tabletMiniText {
+    display: block;
+    padding-top: 64px;
+    width: 249px;
+  }
+  .promise__mark {
+    width: 60px;
+    height: 49px;
+  }
+  .promise__description {
+    width: 378px;
+  }
+  .promise__megaBlock {
+    display: none;
+  }
+  .promise__tabletMegaBlock {
+    position: relative;
+    display: flex;
+    width: 640px;
+    padding: 32px 10px 40px 10px;
+    gap: 22px;
+    background: #ffffff;
+    border-radius: 20px;
+  }
+  .promise__name {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .promise__name_1 {
+    padding-bottom: 126px;
+  }
+  .promise__name_2 {
+    padding-bottom: 834px;
+  }
+  .promise__bigText_1 {
+    padding-bottom: 32px;
+  }
+  .promise__bigText_2 {
+    padding-bottom: 8px;
+  }
+  .promise__bigText_3 {
+    padding-bottom: 24px;
+  }
+  .promise__bigText_4 {
+    padding-bottom: 8px;
+  }
+  .promise__bigText_5 {
+    padding-bottom: 24px;
+  }
+  .promise__bigText_6 {
+    padding-bottom: 8px;
+  }
+  .promise__bigText_7 {
+    padding-bottom: 24px;
+  }
+  .promise__bigText_8 {
+    padding-bottom: 8px;
+  }
+  .promise__bigText_9 {
+    padding-bottom: 32px;
+  }
+  .promise__man {
+    position: absolute;
+    top: 596px;
+    left: 564px;
+    width: 270px;
+    height: 485px;
+  }
+  .promise__miniBlock {
+    padding-bottom: 176px;
   }
 }/*# sourceMappingURL=style.css.map */

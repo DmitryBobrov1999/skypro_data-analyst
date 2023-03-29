@@ -3,6 +3,7 @@
 		padding-left: calc(50% - 310px);
 		padding-right: calc(50% - 310px);
 	}
+
 	.header {
 		height: 736px;
 		&__link {
@@ -395,12 +396,13 @@
 			width: 140px;
 		}
 		&__tabletBlock {
+			width: 640px;
 			display: flex;
 			flex-direction: column;
 			gap: 24px;
 			background: #f9ebff;
 			border-radius: 20px;
-			padding: 40px 0 40px 10px;
+			padding: 40px 10px 40px 10px;
 			margin-bottom: 88px;
 		}
 		&__block {
@@ -414,6 +416,174 @@
 			font-size: 32px;
 			line-height: 135%;
 			width: 418px;
+		}
+	}
+
+	.teacher {
+		br {
+			display: none;
+		}
+		&__main {
+			display: flex;
+			flex-direction: column;
+		}
+		&__block {
+			padding: 32px 40px 32px 40px;
+		}
+		&__title {
+			font-weight: 400;
+			font-size: 48px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+			margin-bottom: 32px;
+		}
+		&__about {
+			width: 436px;
+		}
+		&__name {
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+		}
+		&__creator {
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+		}
+		&__block {
+			width: 640px;
+		}
+		&__freeText {
+			display: none;
+		}
+		&__freeTitle {
+			font-weight: 500;
+			font-size: 28px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+			padding-bottom: 8px;
+		}
+		&__tabletFreeText {
+			display: block;
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+			padding-bottom: 32px;
+			width: 560px;
+		}
+		&__eachInput {
+			width: 560px;
+			height: 64px;
+		}
+		&__button {
+			width: 560px;
+			height: 64px;
+		}
+	}
+
+	.promise {
+		&__title {
+			font-weight: 400;
+			font-size: 48px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+			width: 620px;
+			padding-bottom: 32px;
+			padding-top: 40px;
+		}
+		&__text {
+			display: none;
+		}
+		&__tabletText {
+			display: block;
+			width: 540px;
+			font-weight: 400;
+			font-size: 32px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+		}
+		&__miniText {
+			display: none;
+		}
+		&__tabletMiniText {
+			display: block;
+			padding-top: 64px;
+			width: 249px;
+		}
+		&__mark {
+			width: 60px;
+			height: 49px;
+		}
+		&__description {
+			width: 378px;
+		}
+		&__megaBlock {
+			display: none;
+		}
+		&__tabletMegaBlock {
+			position: relative;
+			display: flex;
+			width: 640px;
+			padding: 32px 10px 40px 10px;
+			gap: 22px;
+			background: #ffffff;
+			border-radius: 20px;
+		}
+		&__name {
+			font-weight: 500;
+			font-size: 28px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+			&_1 {
+				padding-bottom: 126px;
+			}
+			&_2 {
+				padding-bottom: 834px;
+			}
+		}
+		&__bigText {
+			&_1 {
+				padding-bottom: 32px;
+			}
+			&_2 {
+				padding-bottom: 8px;
+			}
+			&_3 {
+				padding-bottom: 24px;
+			}
+			&_4 {
+				padding-bottom: 8px;
+			}
+			&_5 {
+				padding-bottom: 24px;
+			}
+			&_6 {
+				padding-bottom: 8px;
+			}
+			&_7 {
+				padding-bottom: 24px;
+			}
+			&_8 {
+				padding-bottom: 8px;
+			}
+			&_9 {
+				padding-bottom: 32px;
+			}
+		}
+		&__man {
+			position: absolute;
+			top: 596px;
+			left: 564px;
+			width: 270px;
+			height: 485px;
+		}
+		&__miniBlock {
+			padding-bottom: 176px;
 		}
 	}
 }

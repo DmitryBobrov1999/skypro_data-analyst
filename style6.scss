@@ -70,6 +70,7 @@
 		padding-bottom: 16px;
 	}
 	&__freeText {
+		display: block;
 		font-style: normal;
 		font-weight: 400;
 		font-size: 18px;
@@ -78,6 +79,9 @@
 		font-feature-settings: 'pnum' on, 'lnum' on;
 		color: #000000;
 		padding-bottom: 24px;
+	}
+	&__tabletFreeText {
+		display: none;
 	}
 	&__form {
 		display: flex;
