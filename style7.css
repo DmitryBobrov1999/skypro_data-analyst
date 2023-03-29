@@ -1,7 +1,6 @@
 .promise {
   background: #f9ebff;
   padding-bottom: 64px;
-  position: relative;
 }
 .promise__title {
   padding-top: 56px;
@@ -24,8 +23,8 @@
 }
 .promise__man {
   position: absolute;
-  top: 152px;
-  left: 1092px;
+  top: 10852px;
+  left: 57.5%;
 }
 .promise__text {
   display: block;
