@@ -1216,17 +1216,21 @@ body {
   width: 957px;
 }
 .promise__block {
+  position: relative;
   display: flex;
   align-items: flex-start;
   gap: 16px;
+  z-index: 2;
 }
 .promise__miniBlock {
   padding-bottom: 56px;
 }
 .promise__man {
   position: absolute;
-  top: 10852px;
-  left: 57.5%;
+  bottom: 0;
+  left: 62%;
+  right: 38%;
+  z-index: 1;
 }
 .promise__text {
   display: block;
@@ -1259,12 +1263,14 @@ body {
   margin-right: calc(50% - 480px);
 }
 .promise__megaBlock {
+  position: relative;
   width: 960px;
   background: #ffffff;
   border-radius: 20px;
   display: flex;
   gap: 40px;
   padding: 32px 100px 48px 40px;
+  z-index: 2;
 }
 .promise__tabletMegaBlock {
   display: none;
@@ -2590,13 +2596,14 @@ body {
     display: none;
   }
   .promise__tabletMegaBlock {
-    position: relative;
     display: flex;
     width: 640px;
     padding: 32px 10px 40px 10px;
     gap: 22px;
     background: #ffffff;
     border-radius: 20px;
+    position: relative;
+    z-index: 2;
   }
   .promise__name {
     font-weight: 500;
@@ -2639,8 +2646,9 @@ body {
   }
   .promise__man {
     position: absolute;
-    top: 596px;
-    left: 564px;
+    bottom: -137px;
+    left: 58%;
+    right: 42%;
     width: 270px;
     height: 485px;
   }
