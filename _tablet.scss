@@ -528,7 +528,7 @@
 		&__tabletMegaBlock {
 			display: flex;
 			width: 640px;
-			padding: 32px 10px 40px 10px;
+			padding: 32px 12px 40px 10px;
 			gap: 22px;
 			background: #ffffff;
 			border-radius: 20px;
@@ -592,6 +592,9 @@
 	.skill {
 		br {
 			display: none;
+		}
+		&__main {
+			gap: 0;
 		}
 		&__sql {
 			gap: 9px;
@@ -832,7 +835,7 @@
 			color: #04121b;
 		}
 		&__footerLast {
-		padding-top: 32px;
-	}
+			padding-top: 32px;
+		}
 	}
 }
