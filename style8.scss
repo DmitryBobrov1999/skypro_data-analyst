@@ -20,11 +20,15 @@
 		color: #000000;
 	}
 	&__mainBlock {
+		display: block;
 		padding: 24px 100px 40px 32px;
 		background: #f9ebff;
 		border-radius: 20px;
 		width: 660px;
 		margin-bottom: 79px;
+	}
+	&__tabletMainBlock {
+		display: none;
 	}
 	&__miniTitle {
 		font-weight: 500;
@@ -127,8 +131,12 @@
 	}
 
 	&__sqlImg {
+		display: block;
 		position: absolute;
 		top: 227px;
+	}
+	&__tabletImg {
+		display: none;
 	}
 
 	&__sqlBlock {
@@ -204,7 +212,7 @@
 
 	&__pythonWow {
 		position: absolute;
-		top: 110spx;
+		top: 110px;
 		left: 169px;
 	}
 
@@ -230,6 +238,7 @@
 		justify-content: space-between;
 	}
 	&__pythonStatName {
+		display: block;
 		font-weight: 500;
 		font-size: 40px;
 		line-height: 125%;
@@ -237,10 +246,25 @@
 		font-feature-settings: 'pnum' on, 'lnum' on;
 		color: #000000;
 	}
+	&__pythonLastName {
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 125%;
+		letter-spacing: -0.6px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+	}
+	&__tabletPythonStatName {
+		display: none;
+	}
 	&__pythonStatImg {
+		display: block;
 		position: absolute;
 		top: 134px;
 		left: 13px;
+	}
+	&__tabletPythonStatImg {
+		display: none;
 	}
 	&__pythonStatAbout {
 		width: 460px;
@@ -259,10 +283,14 @@
 		height: 170px;
 	}
 	&__footer {
+		display: block;
 		padding: 32px 40px 32px 40px;
 		background: #ececec;
 		border-radius: 20px;
 		margin-bottom: 64px;
+	}
+	&__tabletFooter {
+		display: none;
 	}
 	&__footerTitle {
 		font-weight: 500;
@@ -329,5 +357,14 @@
 		letter-spacing: -0.05px;
 		font-feature-settings: 'pnum' on, 'lnum' on;
 		color: #000000;
+	}
+	&__footerLast {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 145%;
+		letter-spacing: -0.05px;
+		font-feature-settings: 'pnum' on, 'lnum' on;
+		color: #000000;
+		padding-top: 11px;
 	}
 }
