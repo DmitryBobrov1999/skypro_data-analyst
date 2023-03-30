@@ -588,4 +588,58 @@
 			padding-bottom: 176px;
 		}
 	}
+
+	.skill {
+		&__title {
+			font-weight: 400;
+			font-size: 48px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+			width: 300px;
+			padding-bottom: 32px;
+		}
+		&__mainBlock {
+			padding: 24px 32px 40px 32px;
+			width: 620px;
+			margin-bottom: 85px;
+		}
+		&__allImg {
+			display: none;
+		}
+		&__tabletAllImg {
+			display: block;
+			padding-top: 29px;
+			position: relative;
+		}
+		&__block {
+			padding-top: 35px;
+		}
+		&__img {
+			position: absolute;
+			&_1 {
+				left: 72px;
+				top: 29px;
+			}
+			&_2 {
+				left: 124px;
+				top: 208px;
+			}
+			&_3 {
+				left: 51px;
+				top: 375px;
+			}
+			&_4 {
+				left: 2px;
+				top: 384px;
+			}
+			&_5 {
+				left: 264px;
+				top: 511px;
+			}
+			&_6 {
+				left: 225px;
+				top: 654px;
+			}
+		}
+	}
 }
