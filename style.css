@@ -1407,11 +1407,15 @@ body {
   color: #000000;
 }
 .skill__mainBlock {
+  display: block;
   padding: 24px 100px 40px 32px;
   background: #f9ebff;
   border-radius: 20px;
   width: 660px;
   margin-bottom: 79px;
+}
+.skill__tabletMainBlock {
+  display: none;
 }
 .skill__miniTitle {
   font-weight: 500;
@@ -1511,8 +1515,12 @@ body {
   color: #000000;
 }
 .skill__sqlImg {
+  display: block;
   position: absolute;
   top: 227px;
+}
+.skill__tabletImg {
+  display: none;
 }
 .skill__sqlBlock {
   height: 459px;
@@ -1581,7 +1589,7 @@ body {
 }
 .skill__pythonWow {
   position: absolute;
-  top: 110spx;
+  top: 110px;
   left: 169px;
 }
 .skill__powerBI {
@@ -1605,6 +1613,7 @@ body {
   justify-content: space-between;
 }
 .skill__pythonStatName {
+  display: block;
   font-weight: 500;
   font-size: 40px;
   line-height: 125%;
@@ -1612,10 +1621,25 @@ body {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
 }
+.skill__pythonLastName {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+.skill__tabletPythonStatName {
+  display: none;
+}
 .skill__pythonStatImg {
+  display: block;
   position: absolute;
   top: 134px;
   left: 13px;
+}
+.skill__tabletPythonStatImg {
+  display: none;
 }
 .skill__pythonStatAbout {
   width: 460px;
@@ -1633,10 +1657,14 @@ body {
   height: 170px;
 }
 .skill__footer {
+  display: block;
   padding: 32px 40px 32px 40px;
   background: #ececec;
   border-radius: 20px;
   margin-bottom: 64px;
+}
+.skill__tabletFooter {
+  display: none;
 }
 .skill__footerTitle {
   font-weight: 500;
@@ -1722,6 +1750,15 @@ body {
   letter-spacing: -0.05px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+.skill__footerLast {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+  padding-top: 11px;
 }
 
 .comment {
@@ -2659,6 +2696,12 @@ body {
   .promise__miniBlock {
     padding-bottom: 176px;
   }
+  .skill br {
+    display: none;
+  }
+  .skill__sql {
+    gap: 9px;
+  }
   .skill__title {
     font-weight: 400;
     font-size: 48px;
@@ -2668,9 +2711,15 @@ body {
     padding-bottom: 32px;
   }
   .skill__mainBlock {
-    padding: 24px 32px 40px 32px;
+    display: none;
+  }
+  .skill__tabletMainBlock {
+    display: block;
+    padding: 24px 32px 40px;
     width: 620px;
     margin-bottom: 85px;
+    background: #f9ebff;
+    border-radius: 20px;
   }
   .skill__allImg {
     display: none;
@@ -2709,5 +2758,206 @@ body {
   .skill__img_6 {
     left: -130px;
     top: 255px;
+  }
+  .skill__sqlName {
+    width: auto;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .skill__sqlImg {
+    display: none;
+  }
+  .skill__sqlBlock {
+    height: 574px;
+  }
+  .skill__tabletImg {
+    display: block;
+    position: absolute;
+    top: 264px;
+  }
+  .skill__sqlAbout {
+    width: auto;
+    position: relative;
+  }
+  .skill__first {
+    width: 82px;
+  }
+  .skill__second {
+    width: 280px;
+  }
+  .skill__special {
+    height: 1px;
+    background: #000000;
+    opacity: 0.2;
+    width: 380px;
+    margin-top: 24px;
+    margin-left: 240px;
+    margin-bottom: 24px;
+  }
+  .skill__analysisName {
+    width: 220px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .skill__analysis {
+    display: flex;
+    gap: 20px;
+  }
+  .skill__analysisBlock {
+    height: 248px;
+  }
+  .skill__pythonWow {
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    width: 195.83px;
+  }
+  .skill__pythonBlock {
+    height: 326px;
+  }
+  .skill__python {
+    gap: 20px;
+  }
+  .skill__powerBI {
+    gap: 20px;
+  }
+  .skill__powerBIBlock {
+    height: 294px;
+  }
+  .skill__pythonStatName {
+    display: none;
+  }
+  .skill__tabletPythonStatName {
+    display: block;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .skill__pythonStatBlock {
+    height: 425px;
+  }
+  .skill__pythonStatImg {
+    display: none;
+  }
+  .skill__tabletPythonStatImg {
+    display: block;
+    position: absolute;
+    top: 134px;
+    left: 13px;
+  }
+  .skill__pythonStat {
+    gap: 20px;
+  }
+  .skill__pythonLastName {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__analytics {
+    gap: 20px;
+    padding-bottom: 107px;
+  }
+  .skill__analyticsBlock {
+    height: 239px;
+  }
+  .skill__footer {
+    display: none;
+  }
+  .skill__tabletFooter {
+    display: block;
+    width: 640px;
+    padding: 32px 40px;
+    background: #ececec;
+    border-radius: 20px;
+    margin-bottom: 0;
+  }
+  .skill__footerForm {
+    display: flex;
+    flex-direction: column;
+  }
+  .skill__footerTitle {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__footerText {
+    width: 560px;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__footerInput {
+    width: 560px;
+    height: 64px;
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #04121b;
+  }
+  .skill__footerInput::-moz-placeholder {
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #04121b;
+  }
+  .skill__footerInput:-ms-input-placeholder {
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #04121b;
+  }
+  .skill__footerInput::placeholder {
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #04121b;
+  }
+  .skill__button {
+    width: 560px;
+    height: 64px;
+    background: #fcde00;
+    border-radius: 8px;
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #04121b;
+  }
+  .skill__footerLast {
+    padding-top: 32px;
   }
 }/*# sourceMappingURL=style.css.map */

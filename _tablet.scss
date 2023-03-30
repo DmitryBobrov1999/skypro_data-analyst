@@ -590,6 +590,12 @@
 	}
 
 	.skill {
+		br {
+			display: none;
+		}
+		&__sql {
+			gap: 9px;
+		}
 		&__title {
 			font-weight: 400;
 			font-size: 48px;
@@ -599,9 +605,15 @@
 			padding-bottom: 32px;
 		}
 		&__mainBlock {
-			padding: 24px 32px 40px 32px;
+			display: none;
+		}
+		&__tabletMainBlock {
+			display: block;
+			padding: 24px 32px 40px;
 			width: 620px;
 			margin-bottom: 85px;
+			background: #f9ebff;
+			border-radius: 20px;
 		}
 		&__allImg {
 			display: none;
@@ -641,5 +653,186 @@
 				top: 255px;
 			}
 		}
+		&__sqlName {
+			width: auto;
+			font-weight: 500;
+			font-size: 28px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+		}
+		&__sqlImg {
+			display: none;
+		}
+		&__sqlBlock {
+			height: 574px;
+		}
+		&__tabletImg {
+			display: block;
+			position: absolute;
+			top: 264px;
+		}
+		&__sqlAbout {
+			width: auto;
+			position: relative;
+		}
+		&__first {
+			width: 82px;
+		}
+		&__second {
+			width: 280px;
+		}
+		&__special {
+			height: 1px;
+			background: #000000;
+			opacity: 0.2;
+			width: 380px;
+			margin-top: 24px;
+			margin-left: 240px;
+			margin-bottom: 24px;
+		}
+		&__analysisName {
+			width: 220px;
+			font-weight: 500;
+			font-size: 28px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+		}
+		&__analysis {
+			display: flex;
+			gap: 20px;
+		}
+		&__analysisBlock {
+			height: 248px;
+		}
+		&__pythonWow {
+			position: absolute;
+			top: 270px;
+			left: 40px;
+			width: 195.83px;
+		}
+		&__pythonBlock {
+			height: 326px;
+		}
+		&__python {
+			gap: 20px;
+		}
+		&__powerBI {
+			gap: 20px;
+		}
+		&__powerBIBlock {
+			height: 294px;
+		}
+		&__pythonStatName {
+			display: none;
+		}
+		&__tabletPythonStatName {
+			display: block;
+			font-weight: 500;
+			font-size: 28px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+		}
+		&__pythonStatBlock {
+			height: 425px;
+		}
+		&__pythonStatImg {
+			display: none;
+		}
+		&__tabletPythonStatImg {
+			display: block;
+			position: absolute;
+			top: 134px;
+			left: 13px;
+		}
+		&__pythonStat {
+			gap: 20px;
+		}
+		&__pythonLastName {
+			font-weight: 500;
+			font-size: 28px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+		}
+		&__analytics {
+			gap: 20px;
+			padding-bottom: 107px;
+		}
+		&__analyticsBlock {
+			height: 239px;
+		}
+		&__footer {
+			display: none;
+		}
+		&__tabletFooter {
+			display: block;
+			width: 640px;
+			padding: 32px 40px;
+			background: #ececec;
+			border-radius: 20px;
+			margin-bottom: 0;
+		}
+		&__footerForm {
+			display: flex;
+			flex-direction: column;
+		}
+		&__footerTitle {
+			font-weight: 500;
+			font-size: 28px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+		}
+		&__footerText {
+			width: 560px;
+			flex-wrap: wrap;
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+		}
+		&__footerInput {
+			width: 560px;
+			height: 64px;
+			font-family: 'StratosSkyeng';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 32px;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #04121b;
+			&::placeholder {
+				font-family: 'StratosSkyeng';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 32px;
+				letter-spacing: -0.05px;
+				font-feature-settings: 'pnum' on, 'lnum' on;
+				color: #04121b;
+			}
+		}
+		&__button {
+			width: 560px;
+			height: 64px;
+			background: #fcde00;
+			border-radius: 8px;
+			font-family: 'StratosSkyeng';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 32px;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #04121b;
+		}
+		&__footerLast {
+		padding-top: 32px;
+	}
 	}
 }
