@@ -1202,6 +1202,9 @@ body {
 
 .promise {
   background: #f9ebff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding-bottom: 64px;
 }
 .promise__title {
@@ -1388,7 +1391,6 @@ body {
 
 .skill__main {
   display: flex;
-  gap: 2px;
 }
 .skill__block {
   padding-top: 153px;
