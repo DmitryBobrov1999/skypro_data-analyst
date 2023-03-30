@@ -65,8 +65,12 @@
 		color: #6000c7;
 	}
 	&__allImg {
+		display: block;
 		padding-top: 153px;
 		position: relative;
+	}
+	&__tabletAllImg {
+		display: none;
 	}
 	&__img {
 		position: absolute;

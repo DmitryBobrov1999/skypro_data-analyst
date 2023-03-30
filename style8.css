@@ -64,8 +64,12 @@
   color: #6000c7;
 }
 .skill__allImg {
+  display: block;
   padding-top: 153px;
   position: relative;
+}
+.skill__tabletAllImg {
+  display: none;
 }
 .skill__img {
   position: absolute;
