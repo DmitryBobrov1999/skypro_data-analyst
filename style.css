@@ -25,8 +25,6 @@ body {
 
 .header {
   background: #ad61ff;
-  background-position: center;
-  background-size: cover;
   height: 1032px;
 }
 .header__nav {
@@ -1410,7 +1408,7 @@ body {
 }
 .skill__mainBlock {
   display: block;
-  padding: 24px 100px 40px 32px;
+  padding: 24px 32px 40px;
   background: #f9ebff;
   border-radius: 20px;
   width: 660px;
@@ -1469,27 +1467,27 @@ body {
   position: absolute;
 }
 .skill__img_1 {
-  left: 72px;
+  left: 63px;
   top: 109px;
 }
 .skill__img_2 {
-  left: 124px;
+  left: 115px;
   top: 208px;
 }
 .skill__img_3 {
-  left: 51px;
+  left: 42px;
   top: 375px;
 }
 .skill__img_4 {
-  left: 2px;
+  left: -7px;
   top: 384px;
 }
 .skill__img_5 {
-  left: 264px;
+  left: 255px;
   top: 511px;
 }
 .skill__img_6 {
-  left: 225px;
+  left: 216px;
   top: 654px;
 }
 .skill__sql {
