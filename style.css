@@ -8,11 +8,11 @@
   font-family: "StratosSkyeng";
   src: url("./fonts/stratosskyengwebregular.woff2") format("woff2");
   font-style: normal;
-  @font-face {
-    font-family: "skyeng";
-    src: url("./fonts/stratosskyengwebregular.woff") format("woff");
-    font-style: normal;
-  }
+}
+@font-face {
+  font-family: "skyeng";
+  src: url("./fonts/stratosskyengwebregular.woff") format("woff");
+  font-style: normal;
 }
 body {
   font-family: "StratosSkyeng";
@@ -2340,7 +2340,7 @@ body {
   }
   .info__span {
     display: flex;
-    flex-wrap: wraps;
+    flex-wrap: wrap;
   }
   .info__text {
     font-style: normal;
