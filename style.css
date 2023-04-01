@@ -3068,7 +3068,7 @@ body {
   .header__secondSvg {
     width: 80px;
     height: 12px;
-    right: 66%;
+    right: 42%;
   }
   .header__junior {
     display: none;
@@ -3090,5 +3090,11 @@ body {
     left: 25.5%;
     right: 74.5%;
     margin-top: -12px;
+  }
+  .header__strelkaMobile1 {
+    padding-bottom: 6px;
+  }
+  .header__description {
+    width: 300px;
   }
 }/*# sourceMappingURL=style.css.map */

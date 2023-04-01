@@ -40,7 +40,7 @@
 		&__secondSvg {
 			width: 80px;
 			height: 12px;
-			right: 66%;
+			right: 42%;
 		}
 		&__junior {
 			display: none;
@@ -61,6 +61,12 @@
 			left: 25.5%;
 			right: 74.5%;
 			margin-top: -12px;
+		}
+		&__strelkaMobile1 {
+			padding-bottom: 6px;
+		}
+		&__description {
+			width: 300px;
 		}
 	}
 }
