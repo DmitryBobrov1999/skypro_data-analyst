@@ -138,6 +138,12 @@ body {
 		padding-bottom: 27px;
 		max-width: 1160px;
 	}
+	&__juniorMobile {
+		padding-bottom: 29px;
+		line-height: 105%;
+		letter-spacing: -0.05px;
+		display: none;
+	}
 
 	&__junText {
 		font-style: normal;
@@ -244,3 +250,4 @@ body {
 @import 'style11';
 @import 'style12';
 @import 'tablet';
+@import 'mobile';
