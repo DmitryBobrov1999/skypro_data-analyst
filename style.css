@@ -122,6 +122,12 @@ body {
   padding-bottom: 27px;
   max-width: 1160px;
 }
+.header__juniorMobile {
+  padding-bottom: 29px;
+  line-height: 105%;
+  letter-spacing: -0.05px;
+  display: none;
+}
 .header__junText {
   font-style: normal;
   font-weight: 400;
@@ -2136,7 +2142,7 @@ body {
   text-decoration: none;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 310px);
     padding-right: calc(50% - 310px);
@@ -2190,9 +2196,6 @@ body {
     display: block;
   }
   .header__junior {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
     padding-bottom: 32px;
   }
   .header__description {
@@ -2216,7 +2219,7 @@ body {
   }
   .header__button {
     font-family: "StratosSkyeng", sans-serif;
-    width: 300px;
+    min-width: 300px;
     height: 55px;
     background: #fcde00;
     border-radius: 12px;
@@ -2248,7 +2251,6 @@ body {
     color: #ffffff;
   }
   .header__footer {
-    display: flex;
     gap: 20px;
   }
   .header__nav {
@@ -3022,5 +3024,71 @@ body {
   }
   .footer__other {
     flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .center {
+    padding-left: calc(50% - 150px);
+    padding-right: calc(50% - 150px);
+  }
+  .header {
+    height: 753px;
+  }
+  .header__smallTitle {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+  }
+  .header__title {
+    margin-top: 28px;
+  }
+  .header__main {
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 60%;
+    letter-spacing: -0.05px;
+    padding-bottom: 10px;
+  }
+  .header__smallText {
+    margin-bottom: 28px;
+    font-size: 20px;
+    line-height: 135%;
+    width: 300px;
+  }
+  .header__footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .header__button {
+    order: 2;
+  }
+  .header__secondSvg {
+    width: 80px;
+    height: 12px;
+    right: 66%;
+  }
+  .header__junior {
+    display: none;
+  }
+  .header__juniorMobile {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    -moz-column-gap: 8px;
+         column-gap: 8px;
+    align-items: baseline;
+  }
+  .header__svg {
+    left: 25.5%;
+    right: 74.5%;
+    margin-top: -12px;
   }
 }/*# sourceMappingURL=style.css.map */
