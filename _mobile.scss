@@ -69,4 +69,139 @@
 			width: 300px;
 		}
 	}
+
+	.section {
+		&__title {
+			display: none;
+		}
+		&__mobileTitle {
+			display: flex;
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 105%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+			margin-top: 24px;
+			width: 300px;
+		}
+		&__img {
+			width: 72px;
+			height: 102.6px;
+		}
+		&__name {
+			font-size: 20px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+		}
+		&__firstWhois {
+			display: none;
+		}
+		&__mobileWhois {
+			display: block;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+			opacity: 0.3;
+		}
+		&__creator {
+			font-size: 16px;
+			line-height: 145%;
+			margin-top: 8px;
+		}
+		&__people {
+			flex-direction: row-reverse;
+			gap: 8px;
+		}
+		&__info {
+			margin-top: 24px;
+			gap: 24px;
+		}
+		&__about {
+			width: 220px;
+		}
+		&__link {
+			margin-top: 16px;
+			width: 282px;
+		}
+
+		&__firstLink {
+			gap: 16px;
+		}
+		&__secondLink {
+			gap: 16px;
+		}
+		&__specialFirstLink {
+			display: none;
+		}
+		&__specialMobileLink {
+			display: flex;
+			flex-direction: column;
+			gap: 8px;
+		}
+		&__specialMobileSecond {
+			order: 1;
+		}
+		&__mobileSecondLink {
+			display: flex;
+		}
+		&__secondSpecial {
+			display: none;
+		}
+		&__fourthMobile {
+			margin-top: 36px;
+		}
+		&__button {
+			width: 300px;
+			height: 55px;
+			margin-bottom: 40px;
+		}
+		&__buttonImg {
+			width: 69px;
+			height: 27px;
+		}
+		&__buttonFace {
+			&_first {
+				background-image: url(imgSection/button_firstMobile.png);
+				background-repeat: no-repeat;
+				position: absolute;
+				z-index: 3;
+			}
+			&_second {
+				background-image: url(imgSection/button_secondMobile.png);
+				position: absolute;
+				background-repeat: no-repeat;
+				left: 22.8%;
+				z-index: 2;
+			}
+			&_third {
+				background-image: url(imgSection/button_thirdMobile.png);
+				position: absolute;
+				background-repeat: no-repeat;
+				left: 45.6%;
+				z-index: 1;
+			}
+			&_fourth {
+				background-image: url(imgSection/button_fourthMobile.png);
+				position: absolute;
+				background-repeat: no-repeat;
+				left: 68.4%;
+				z-index: 0;
+			}
+		}
+		&__buttonInfo {
+			font-family: 'StratosSkyeng';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 135%;
+			text-align: center;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #ff6d00;
+		}
+	}
 }
