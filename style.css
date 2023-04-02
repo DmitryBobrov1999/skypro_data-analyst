@@ -211,6 +211,7 @@ body {
 }
 
 .section__title {
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -220,6 +221,9 @@ body {
   color: #000000;
   margin-top: 56px;
   width: 960px;
+}
+.section__mobileTitle {
+  display: none;
 }
 .section__info {
   display: grid;
@@ -258,6 +262,12 @@ body {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
   opacity: 0.3;
+}
+.section__firstWhois {
+  display: block;
+}
+.section__mobileWhois {
+  display: none;
 }
 .section__creator {
   font-style: normal;
@@ -298,9 +308,15 @@ body {
   display: flex;
   gap: 12px;
 }
+.section__specialMobileLink {
+  display: none;
+}
 .section__secondLink {
   display: flex;
   gap: 12px;
+}
+.section__mobileSecondLink {
+  display: none;
 }
 .section__thirdLink {
   display: flex;
@@ -3096,5 +3112,134 @@ body {
   }
   .header__description {
     width: 300px;
+  }
+  .section__title {
+    display: none;
+  }
+  .section__mobileTitle {
+    display: flex;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    margin-top: 24px;
+    width: 300px;
+  }
+  .section__img {
+    width: 72px;
+    height: 102.6px;
+  }
+  .section__name {
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .section__firstWhois {
+    display: none;
+  }
+  .section__mobileWhois {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    opacity: 0.3;
+  }
+  .section__creator {
+    font-size: 16px;
+    line-height: 145%;
+    margin-top: 8px;
+  }
+  .section__people {
+    flex-direction: row-reverse;
+    gap: 8px;
+  }
+  .section__info {
+    margin-top: 24px;
+    gap: 24px;
+  }
+  .section__about {
+    width: 220px;
+  }
+  .section__link {
+    margin-top: 16px;
+    width: 282px;
+  }
+  .section__firstLink {
+    gap: 16px;
+  }
+  .section__secondLink {
+    gap: 16px;
+  }
+  .section__specialFirstLink {
+    display: none;
+  }
+  .section__specialMobileLink {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .section__specialMobileSecond {
+    order: 1;
+  }
+  .section__mobileSecondLink {
+    display: flex;
+  }
+  .section__secondSpecial {
+    display: none;
+  }
+  .section__fourthMobile {
+    margin-top: 36px;
+  }
+  .section__button {
+    width: 300px;
+    height: 55px;
+    margin-bottom: 40px;
+  }
+  .section__buttonImg {
+    width: 69px;
+    height: 27px;
+  }
+  .section__buttonFace_first {
+    background-image: url(imgSection/button_firstMobile.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 3;
+  }
+  .section__buttonFace_second {
+    background-image: url(imgSection/button_secondMobile.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 22.8%;
+    z-index: 2;
+  }
+  .section__buttonFace_third {
+    background-image: url(imgSection/button_thirdMobile.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 45.6%;
+    z-index: 1;
+  }
+  .section__buttonFace_fourth {
+    background-image: url(imgSection/button_fourthMobile.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 68.4%;
+    z-index: 0;
+  }
+  .section__buttonInfo {
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ff6d00;
   }
 }/*# sourceMappingURL=style.css.map */

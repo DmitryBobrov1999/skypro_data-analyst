@@ -1,5 +1,6 @@
 .section {
 	&__title {
+		display: block;
 		font-style: normal;
 		font-weight: 400;
 		font-size: 72px;
@@ -9,6 +10,9 @@
 		color: #000000;
 		margin-top: 56px;
 		width: 960px;
+	}
+	&__mobileTitle {
+		display: none;
 	}
 
 	&__info {
@@ -54,6 +58,12 @@
 		color: #000000;
 		opacity: 0.3;
 	}
+	&__firstWhois {
+		display: block;
+	}
+	&__mobileWhois {
+		display: none;
+	}
 
 	&__creator {
 		font-style: normal;
@@ -98,10 +108,16 @@
 		display: flex;
 		gap: 12px;
 	}
+	&__specialMobileLink {
+		display: none;
+	}
 
 	&__secondLink {
 		display: flex;
 		gap: 12px;
+	}
+	&__mobileSecondLink {
+		display: none;
 	}
 
 	&__thirdLink {
