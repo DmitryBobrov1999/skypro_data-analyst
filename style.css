@@ -3242,4 +3242,78 @@ body {
     font-feature-settings: "pnum" on, "lnum" on;
     color: #ff6d00;
   }
+  .about__quantity {
+    display: none;
+  }
+  .about__title {
+    font-size: 28px;
+    line-height: 105%;
+    padding-top: 24px;
+    padding-bottom: 16px;
+  }
+  .about__text {
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    width: 300px;
+    padding-bottom: 24px;
+  }
+  .about__textSpan {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
+  .about__fake {
+    width: 14px;
+    height: 14px;
+    border-radius: 3.5px;
+  }
+  .about__fake::before {
+    width: 9.2px;
+    height: 7.13px;
+    background-image: url(imgAbout/iconMobile.svg);
+  }
+  .about__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .about__skillName {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .about__check {
+    width: 300px;
+  }
+  .about__textSpan {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+  }
+  .about__skills {
+    padding-bottom: 24px;
+  }
+  .about__divButton {
+    padding-bottom: 32px;
+  }
+  .about__button {
+    border: 1px solid #ff6d00;
+    border-radius: 12px;
+    width: 300px;
+    height: 55px;
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    text-align: center;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
 }/*# sourceMappingURL=style.css.map */

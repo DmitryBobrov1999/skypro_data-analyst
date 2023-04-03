@@ -204,4 +204,81 @@
 			color: #ff6d00;
 		}
 	}
+
+	.about {
+		&__quantity {
+			display: none;
+		}
+		&__title {
+			font-size: 28px;
+			line-height: 105%;
+			padding-top: 24px;
+			padding-bottom: 16px;
+		}
+		&__text {
+			font-size: 20px;
+			line-height: 135%;
+			letter-spacing: -0.6px;
+			width: 300px;
+			padding-bottom: 24px;
+		}
+		&__textSpan {
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 135%;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+		}
+		&__fake {
+			width: 14px;
+			height: 14px;
+			border-radius: 3.5px;
+			&::before {
+				width: 9.2px;
+				height: 7.13px;
+				background-image: url(imgAbout/iconMobile.svg);
+			}
+		}
+		&__name {
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__skillName {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__check {
+			width: 300px;
+		}
+		&__textSpan {
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 135%;
+			letter-spacing: -0.6px;
+		}
+		&__skills {
+			padding-bottom: 24px;
+		}
+		&__divButton {
+			padding-bottom: 32px;
+		}
+		&__button {
+			border: 1px solid #ff6d00;
+			border-radius: 12px;
+			width: 300px;
+			height: 55px;
+			font-family: 'StratosSkyeng';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 135%;
+			text-align: center;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+		}
+	}
 }
