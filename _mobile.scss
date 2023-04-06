@@ -522,6 +522,9 @@
 			width: 300px;
 			height: 249px;
 		}
+		&__tabletHomeText {
+			width: 300px;
+		}
 		&__homework {
 			gap: 16px;
 			margin-bottom: 40px;
@@ -546,9 +549,7 @@
 			font-feature-settings: 'pnum' on, 'lnum' on;
 			color: #000000;
 		}
-		&__tabletHomeText {
-			width: 320px;
-		}
+		
 		&__tabletTextBond {
 			display: none;
 		}
@@ -588,6 +589,7 @@
 			color: #000000;
 		}
 		&__blocktitle {
+			width: 300px;
 			font-weight: 400;
 			font-size: 20px;
 			line-height: 135%;
