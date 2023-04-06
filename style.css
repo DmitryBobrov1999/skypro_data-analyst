@@ -3597,6 +3597,9 @@ body {
     width: 300px;
     height: 249px;
   }
+  .all__tabletHomeText {
+    width: 300px;
+  }
   .all__homework {
     gap: 16px;
     margin-bottom: 40px;
@@ -3620,9 +3623,6 @@ body {
     letter-spacing: -0.05px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
-  }
-  .all__tabletHomeText {
-    width: 320px;
   }
   .all__tabletTextBond {
     display: none;
@@ -3663,6 +3663,7 @@ body {
     color: #000000;
   }
   .all__blocktitle {
+    width: 300px;
     font-weight: 400;
     font-size: 20px;
     line-height: 135%;
