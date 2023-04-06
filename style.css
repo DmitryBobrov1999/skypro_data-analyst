@@ -886,6 +886,7 @@ body {
   padding-bottom: 16px;
 }
 .all__text {
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -894,6 +895,9 @@ body {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
   width: 319px;
+}
+.all__mobileText {
+  display: none;
 }
 .all__frame {
   display: block;
@@ -922,6 +926,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.all__skills {
+  display: none;
+}
 .all__video {
   display: flex;
   gap: 41px;
@@ -932,6 +939,7 @@ body {
   gap: 16px;
 }
 .all__ultraTitle {
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -940,6 +948,9 @@ body {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
   padding-bottom: 16px;
+}
+.all__ultraMobileText {
+  display: none;
 }
 .all__miniText {
   font-style: normal;
@@ -970,7 +981,7 @@ body {
 .all__ultraTabletText {
   display: none;
 }
-.all__hometext {
+.all__homeText {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -981,7 +992,11 @@ body {
 .all__ultraText {
   display: block;
 }
-.all__homeminitext {
+.all__ultraMobileText {
+  display: none;
+}
+.all__HomeMiniText {
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -990,7 +1005,7 @@ body {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #ad61ff;
 }
-.all__homeimg {
+.all__homeImg {
   background-repeat: no-repeat;
 }
 .all__bond {
@@ -998,7 +1013,7 @@ body {
   gap: 16px;
   margin-bottom: 79px;
 }
-.all__textbond {
+.all__textBond {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1010,6 +1025,9 @@ body {
   width: 139px;
   height: 90px;
   margin-right: 10px;
+}
+.all__TabletHomeMiniText {
+  display: none;
 }
 .all__greentext {
   font-style: normal;
@@ -1031,7 +1049,16 @@ body {
   border-radius: 20px;
   margin-bottom: 120px;
 }
+.all__mobileSpecialHere {
+  display: none;
+}
+.all__mobileGreenText {
+  display: none;
+}
 .all__tabletBlock {
+  display: none;
+}
+.all__mobileBlock {
   display: none;
 }
 .all__blocktitle {
@@ -2447,7 +2474,7 @@ body {
     width: 620px;
     height: 442px;
   }
-  .all__videoimg {
+  .all__videoImg {
     width: 620px;
     height: 442px;
   }
@@ -2463,7 +2490,7 @@ body {
     gap: 16px;
     width: 460px;
   }
-  .all__homeimg {
+  .all__homeImg {
     width: 620px;
   }
   .all__homework {
@@ -2482,7 +2509,7 @@ body {
     width: 460px;
     gap: 16px;
   }
-  .all__hometext {
+  .all__homeText {
     display: none;
   }
   .all__imgBond {
@@ -2494,7 +2521,7 @@ body {
     gap: 24px;
     margin-bottom: 40px;
   }
-  .all__textbond {
+  .all__textBond {
     display: none;
   }
   .all__tabletTextBond {
@@ -2502,6 +2529,7 @@ body {
     justify-content: space-between;
   }
   .all__tabletTextBlock1 {
+    display: flex;
     flex-direction: column;
     gap: 16px;
   }
@@ -2510,6 +2538,9 @@ body {
     flex-direction: column;
     gap: 16px;
     width: 140px;
+  }
+  .all__mobileTextAgain {
+    display: none;
   }
   .all__ultraTitle {
     width: 460px;
@@ -2529,6 +2560,19 @@ body {
     letter-spacing: -0.05px;
     font-feature-settings: "pnum" on, "lnum" on;
     width: 140px;
+  }
+  .all__HomeMiniText {
+    display: none;
+  }
+  .all__TabletHomeMiniText {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ad61ff;
+    width: 460px;
+    display: block;
   }
   .all__tabletBlock {
     width: 640px;
@@ -3448,5 +3492,239 @@ body {
   }
   .info__form {
     padding-top: 24px;
+  }
+  .all__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    padding-bottom: 16px;
+  }
+  .all__first {
+    padding-left: 0;
+  }
+  .all__workshop {
+    padding: 16px 10px;
+    gap: 16px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    width: 320px;
+    margin-bottom: 40px;
+  }
+  .all__team {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    padding-bottom: 0;
+  }
+  .all__second {
+    width: 300px;
+    height: auto;
+  }
+  .all__img {
+    width: 300px;
+    height: auto;
+  }
+  .all__workshopimg {
+    width: 300px;
+    height: 176px;
+  }
+  .all__skills {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ad61ff;
+    padding-bottom: 16px;
+  }
+  .all__text {
+    display: none;
+  }
+  .all__mobileText {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .all__videoMain {
+    width: 300px;
+    height: auto;
+  }
+  .all__videoImg {
+    width: 300px;
+    height: 213px;
+  }
+  .all__point {
+    display: flex;
+    gap: 8px;
+  }
+  .all__ultraTitle {
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    width: 300px;
+  }
+  .all__ultraMobileText {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .all__ultraTabletText {
+    display: none;
+  }
+  .all__homeImg {
+    width: 300px;
+  }
+  .all__homeworkimg {
+    width: 300px;
+    height: 249px;
+  }
+  .all__homework {
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .all__miniText {
+    display: none;
+  }
+  .all__homeminitext {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    width: 300px;
+  }
+  .all__mobileTextAgain {
+    display: block;
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .all__tabletHomeText {
+    width: 320px;
+  }
+  .all__tabletTextBond {
+    display: none;
+  }
+  .all__imgBond {
+    width: 300px;
+    height: 244px;
+  }
+  .all__mobileTeachers {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .all__crown {
+    display: block;
+  }
+  .all__greentext {
+    display: block;
+  }
+  .all__mobileBlock {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background: #f9ebff;
+    padding: 16px 10px;
+    border-radius: 20px;
+    gap: 16px;
+  }
+  .all__blocktext {
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .all__blocktitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .all__tabletBlock {
+    display: none;
+  }
+  .all__textBond {
+    display: flex;
+    align-items: center;
+  }
+  .all__mobileSpecial {
+    display: none;
+  }
+  .all__mobileGreenText {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    text-align: center;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #00a665;
+  }
+  .all__greentext {
+    display: none;
+  }
+  .all__mobileSpecialHere {
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    width: 300px;
+  }
+  .all__margin {
+    margin-left: 0;
+  }
+  .all__HomeMiniText {
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ad61ff;
+  }
+  .all__TabletHomeMiniText {
+    display: none;
+  }
+  .all__mobileSmallText {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
   }
 }/*# sourceMappingURL=style.css.map */
