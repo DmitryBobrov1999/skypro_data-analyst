@@ -283,6 +283,7 @@
 			width: 620px;
 			height: 364px;
 		}
+
 		&__second {
 			width: 620px;
 			height: auto;
@@ -306,7 +307,7 @@
 			width: 620px;
 			height: 442px;
 		}
-		&__videoimg {
+		&__videoImg {
 			width: 620px;
 			height: 442px;
 		}
@@ -322,7 +323,7 @@
 			gap: 16px;
 			width: 460px;
 		}
-		&__homeimg {
+		&__homeImg {
 			width: 620px;
 		}
 		&__homework {
@@ -341,7 +342,7 @@
 			width: 460px;
 			gap: 16px;
 		}
-		&__hometext {
+		&__homeText {
 			display: none;
 		}
 		&__imgBond {
@@ -353,7 +354,7 @@
 			gap: 24px;
 			margin-bottom: 40px;
 		}
-		&__textbond {
+		&__textBond {
 			display: none;
 		}
 		&__tabletTextBond {
@@ -361,6 +362,7 @@
 			justify-content: space-between;
 		}
 		&__tabletTextBlock1 {
+			display: flex;
 			flex-direction: column;
 			gap: 16px;
 		}
@@ -369,6 +371,9 @@
 			flex-direction: column;
 			gap: 16px;
 			width: 140px;
+		}
+		&__mobileTextAgain {
+			display: none;
 		}
 		&__ultraTitle {
 			width: 460px;
@@ -392,6 +397,20 @@
 			font-feature-settings: 'pnum' on, 'lnum' on;
 			width: 140px;
 		}
+		&__HomeMiniText {
+			display: none;
+		}
+		&__TabletHomeMiniText {
+			font-weight: 400;
+			font-size: 24px;
+			line-height: 135%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #ad61ff;
+			width: 460px;
+			display: block;
+		}
+
 		&__tabletBlock {
 			width: 640px;
 			display: flex;

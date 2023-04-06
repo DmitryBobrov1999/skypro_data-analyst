@@ -31,6 +31,7 @@
 		padding-bottom: 16px;
 	}
 	&__text {
+		display: block;
 		font-style: normal;
 		font-weight: 400;
 		font-size: 18px;
@@ -39,6 +40,9 @@
 		font-feature-settings: 'pnum' on, 'lnum' on;
 		color: #000000;
 		width: 319px;
+	}
+	&__mobileText {
+		display: none;
 	}
 
 	&__frame {
@@ -71,6 +75,9 @@
 		flex-direction: column;
 		align-items: center;
 	}
+	&__skills {
+		display: none;
+	}
 
 	&__video {
 		display: flex;
@@ -84,6 +91,7 @@
 	}
 
 	&__ultraTitle {
+		display: block;
 		font-style: normal;
 		font-weight: 400;
 		font-size: 32px;
@@ -92,6 +100,9 @@
 		font-feature-settings: 'pnum' on, 'lnum' on;
 		color: #000000;
 		padding-bottom: 16px;
+	}
+	&__ultraMobileText {
+		display: none;
 	}
 	&__miniText {
 		font-style: normal;
@@ -124,7 +135,7 @@
 	&__ultraTabletText {
 		display: none;
 	}
-	&__hometext {
+	&__homeText {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -135,7 +146,11 @@
 	&__ultraText {
 		display: block;
 	}
-	&__homeminitext {
+	&__ultraMobileText {
+		display: none;
+	}
+	&__HomeMiniText {
+		display: block;
 		font-style: normal;
 		font-weight: 400;
 		font-size: 24px;
@@ -145,7 +160,7 @@
 		color: #ad61ff;
 	}
 
-	&__homeimg {
+	&__homeImg {
 		background-repeat: no-repeat;
 	}
 
@@ -155,7 +170,7 @@
 		margin-bottom: 79px;
 	}
 
-	&__textbond {
+	&__textBond {
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
@@ -167,6 +182,9 @@
 		width: 139px;
 		height: 90px;
 		margin-right: 10px;
+	}
+	&__TabletHomeMiniText {
+		display: none;
 	}
 
 	&__greentext {
@@ -190,7 +208,16 @@
 		border-radius: 20px;
 		margin-bottom: 120px;
 	}
+	&__mobileSpecialHere {
+		display: none;
+	}
+	&__mobileGreenText {
+		display: none;
+	}
 	&__tabletBlock {
+		display: none;
+	}
+	&__mobileBlock {
 		display: none;
 	}
 	&__blocktitle {
