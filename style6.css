@@ -78,6 +78,9 @@
   color: #000000;
   padding-bottom: 24px;
 }
+.teacher__mobileFreeText {
+  display: none;
+}
 .teacher__tabletFreeText {
   display: none;
 }

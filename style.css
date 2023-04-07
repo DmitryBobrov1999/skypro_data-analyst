@@ -1168,6 +1168,9 @@ body {
   color: #000000;
   padding-bottom: 24px;
 }
+.teacher__mobileFreeText {
+  display: none;
+}
 .teacher__tabletFreeText {
   display: none;
 }
@@ -2650,6 +2653,9 @@ body {
     padding-bottom: 32px;
     width: 560px;
   }
+  .teacher__mobileFreeText {
+    display: none;
+  }
   .teacher__eachInput {
     width: 560px;
     height: 64px;
@@ -3652,6 +3658,7 @@ body {
     padding: 16px 10px;
     border-radius: 20px;
     gap: 16px;
+    margin-bottom: 32px;
   }
   .all__blocktext {
     width: 300px;
@@ -3727,5 +3734,72 @@ body {
     letter-spacing: -0.05px;
     font-feature-settings: "pnum" on, "lnum" on;
     color: #000000;
+  }
+  .teacher__main {
+    display: none;
+  }
+  .teacher__mobileMain {
+    display: flex;
+    gap: 32px;
+  }
+  .teacher__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    margin-bottom: 24px;
+  }
+  .teacher__info {
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  .teacher__about {
+    width: 220px;
+  }
+  .teacher__name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .teacher__whois {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .teacher__creator {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    margin-top: 8px;
+  }
+  .teacher__block {
+    width: 320px;
+    height: 399px;
+    padding: 16px 10px;
+    gap: 24px;
+  }
+  .teacher__mobileFreeText {
+    display: block;
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .teacher__tabletFreeText {
+    display: none;
+  }
+  .teacher__eachInput {
+    width: 300px;
+    height: 48px;
+  }
+  .teacher__button {
+    width: 300px;
+    height: 48px;
   }
 }/*# sourceMappingURL=style.css.map */
