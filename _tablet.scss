@@ -490,6 +490,9 @@
 			padding-bottom: 32px;
 			width: 560px;
 		}
+		&__mobileFreeText {
+			display: none;
+		}
 		&__eachInput {
 			width: 560px;
 			height: 64px;

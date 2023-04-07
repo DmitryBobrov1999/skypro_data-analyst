@@ -549,7 +549,7 @@
 			font-feature-settings: 'pnum' on, 'lnum' on;
 			color: #000000;
 		}
-		
+
 		&__tabletTextBond {
 			display: none;
 		}
@@ -578,6 +578,7 @@
 			padding: 16px 10px;
 			border-radius: 20px;
 			gap: 16px;
+			margin-bottom: 32px;
 		}
 		&__blocktext {
 			width: 300px;
@@ -653,6 +654,76 @@
 			letter-spacing: -0.05px;
 			font-feature-settings: 'pnum' on, 'lnum' on;
 			color: #000000;
+		}
+	}
+
+	.teacher {
+		&__main {
+			display: none;
+		}
+		&__mobileMain {
+			display: flex;
+			gap: 32px;
+		}
+		&__title {
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 105%;
+			letter-spacing: -0.05px;
+			margin-bottom: 24px;
+		}
+		&__info {
+			gap: 24px;
+			margin-bottom: 32px;
+		}
+		&__about {
+			width: 220px;
+		}
+		&__name {
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+		}
+		&__whois {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__creator {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			margin-top: 8px;
+		}
+		&__block {
+			width: 320px;
+			height: 399px;
+			padding: 16px 10px;
+			gap: 24px;
+		}
+		&__mobileFreeText {
+			display: block;
+			width: 300px;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+		}
+		&__tabletFreeText {
+			display: none;
+		}
+		&__eachInput {
+			width: 300px;
+			height: 48px;
+		}
+		&__button {
+			width: 300px;
+			height: 48px;
 		}
 	}
 }
