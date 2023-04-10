@@ -394,6 +394,7 @@
 			width: 320px;
 			padding: 16px 10px;
 			margin-bottom: 40px;
+			border-radius: 0;
 		}
 		&__footerTitle {
 			font-family: 'StratosSkyeng';
@@ -431,12 +432,12 @@
 		&__workshop {
 			padding: 16px 10px;
 			gap: 16px;
-			border-radius: 20px;
 			display: flex;
 			flex-direction: column-reverse;
 			position: relative;
 			width: 320px;
 			margin-bottom: 40px;
+			border-radius: 0;
 		}
 		&__team {
 			font-weight: 400;
@@ -576,7 +577,6 @@
 			width: 320px;
 			background: #f9ebff;
 			padding: 16px 10px;
-			border-radius: 20px;
 			gap: 16px;
 			margin-bottom: 32px;
 		}
@@ -663,6 +663,7 @@
 		}
 		&__mobileMain {
 			display: flex;
+			flex-direction: column;
 			gap: 32px;
 		}
 		&__title {
@@ -703,6 +704,7 @@
 			height: 399px;
 			padding: 16px 10px;
 			gap: 24px;
+			border-radius: 0;
 		}
 		&__mobileFreeText {
 			display: block;
@@ -724,6 +726,121 @@
 		&__button {
 			width: 300px;
 			height: 48px;
+		}
+	}
+
+	.promise {
+		padding-bottom: 10px;
+		&__title {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 105%;
+			letter-spacing: -0.05px;
+			width: 300px;
+			padding-top: 32px;
+			padding-bottom: 24px;
+		}
+		&__mark {
+			width: 24px;
+			height: 20.31px;
+		}
+		&__text {
+			display: block;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			width: 268px;
+		}
+		&__tabletText {
+			display: none;
+		}
+		&__block {
+			gap: 8px;
+			flex-wrap: wrap;
+		}
+		&__tabletMiniText {
+			display: none;
+			padding-top: 16px;
+			width: 140px;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__mobileMiniText {
+			display: block;
+			width: 140px;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__man {
+			display: none;
+		}
+		&__mobileMan {
+			display: block;
+			position: absolute;
+			bottom: 0;
+			left: 61%;
+			right: 39%;
+			z-index: 1;
+		}
+		&__miniBlock {
+			padding-bottom: 0;
+		}
+		&__tabletMegaBlock {
+			display: none;
+		}
+		&__mobileMegaBlock {
+			display: flex;
+			flex-direction: column;
+			width: 300px;
+			background: #ffffff;
+			padding: 10px 10px 15px 10px;
+			z-index: 2;
+			position: relative;
+		}
+		&__name {
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+			&_1 {
+				padding-bottom: 16px;
+			}
+			&_2 {
+				padding-bottom: 16px;
+			}
+			&_3 {
+				padding-bottom: 16px;
+			}
+		}
+		&__bigText {
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 135%;
+			letter-spacing: -0.6px;
+			&_1 {
+				padding-bottom: 40px;
+			}
+			&_2 {
+				padding-bottom: 8px;
+			}
+			&_3 {
+				padding-bottom: 16px;
+			}
+			&_5 {
+				padding-bottom: 16px;
+			}
+			&_7 {
+				padding-bottom: 16px;
+			}
+			&_9 {
+				padding-bottom: 40px;
+			}
 		}
 	}
 }

@@ -34,6 +34,9 @@
 		right: 38%;
 		z-index: 1;
 	}
+	&__mobileMan {
+		display: none;
+	}
 	&__text {
 		display: block;
 		font-weight: 400;
@@ -44,6 +47,9 @@
 		color: #000000;
 		padding-bottom: 16px;
 		width: 620px;
+	}
+	&__mobileMiniText {
+		display: none;
 	}
 	&__tabletText {
 		display: none;
@@ -77,6 +83,9 @@
 		z-index: 2;
 	}
 	&__tabletMegaBlock {
+		display: none;
+	}
+	&__mobileMegaBlock {
 		display: none;
 	}
 

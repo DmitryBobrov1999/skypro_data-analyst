@@ -1104,6 +1104,9 @@ body {
   color: #000000;
   margin-bottom: 48px;
 }
+.teacher__mobileMain {
+  display: none;
+}
 .teacher__main {
   display: flex;
   gap: 40px;
@@ -1285,6 +1288,9 @@ body {
   right: 38%;
   z-index: 1;
 }
+.promise__mobileMan {
+  display: none;
+}
 .promise__text {
   display: block;
   font-weight: 400;
@@ -1295,6 +1301,9 @@ body {
   color: #000000;
   padding-bottom: 16px;
   width: 620px;
+}
+.promise__mobileMiniText {
+  display: none;
 }
 .promise__tabletText {
   display: none;
@@ -1326,6 +1335,9 @@ body {
   z-index: 2;
 }
 .promise__tabletMegaBlock {
+  display: none;
+}
+.promise__mobileMegaBlock {
   display: none;
 }
 .promise__name {
@@ -3478,6 +3490,7 @@ body {
     width: 320px;
     padding: 16px 10px;
     margin-bottom: 40px;
+    border-radius: 0;
   }
   .info__footerTitle {
     font-family: "StratosSkyeng";
@@ -3512,12 +3525,12 @@ body {
   .all__workshop {
     padding: 16px 10px;
     gap: 16px;
-    border-radius: 20px;
     display: flex;
     flex-direction: column-reverse;
     position: relative;
     width: 320px;
     margin-bottom: 40px;
+    border-radius: 0;
   }
   .all__team {
     font-weight: 400;
@@ -3656,7 +3669,6 @@ body {
     width: 320px;
     background: #f9ebff;
     padding: 16px 10px;
-    border-radius: 20px;
     gap: 16px;
     margin-bottom: 32px;
   }
@@ -3740,6 +3752,7 @@ body {
   }
   .teacher__mobileMain {
     display: flex;
+    flex-direction: column;
     gap: 32px;
   }
   .teacher__title {
@@ -3780,6 +3793,7 @@ body {
     height: 399px;
     padding: 16px 10px;
     gap: 24px;
+    border-radius: 0;
   }
   .teacher__mobileFreeText {
     display: block;
@@ -3801,5 +3815,119 @@ body {
   .teacher__button {
     width: 300px;
     height: 48px;
+  }
+  .promise {
+    padding-bottom: 10px;
+  }
+  .promise__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    width: 300px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+  .promise__mark {
+    width: 24px;
+    height: 20.31px;
+  }
+  .promise__text {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    width: 268px;
+  }
+  .promise__tabletText {
+    display: none;
+  }
+  .promise__block {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .promise__tabletMiniText {
+    display: none;
+    padding-top: 16px;
+    width: 140px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .promise__mobileMiniText {
+    display: block;
+    width: 140px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .promise__man {
+    display: none;
+  }
+  .promise__mobileMan {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 61%;
+    right: 39%;
+    z-index: 1;
+  }
+  .promise__miniBlock {
+    padding-bottom: 0;
+  }
+  .promise__tabletMegaBlock {
+    display: none;
+  }
+  .promise__mobileMegaBlock {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background: #ffffff;
+    padding: 10px 10px 15px 10px;
+    z-index: 2;
+    position: relative;
+  }
+  .promise__name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .promise__name_1 {
+    padding-bottom: 16px;
+  }
+  .promise__name_2 {
+    padding-bottom: 16px;
+  }
+  .promise__name_3 {
+    padding-bottom: 16px;
+  }
+  .promise__bigText {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+  }
+  .promise__bigText_1 {
+    padding-bottom: 40px;
+  }
+  .promise__bigText_2 {
+    padding-bottom: 8px;
+  }
+  .promise__bigText_3 {
+    padding-bottom: 16px;
+  }
+  .promise__bigText_5 {
+    padding-bottom: 16px;
+  }
+  .promise__bigText_7 {
+    padding-bottom: 16px;
+  }
+  .promise__bigText_9 {
+    padding-bottom: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -15,10 +15,14 @@
 		color: #000000;
 		margin-bottom: 48px;
 	}
+	&__mobileMain {
+		display: none;
+	}
 	&__main {
 		display: flex;
 		gap: 40px;
 	}
+
 	&__creator {
 		font-style: normal;
 		font-weight: 400;
