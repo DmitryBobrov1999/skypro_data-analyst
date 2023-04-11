@@ -1457,6 +1457,9 @@ body {
 .skill__block {
   padding-top: 153px;
 }
+.skill__mobileBlock {
+  display: none;
+}
 .skill__title {
   font-weight: 400;
   font-size: 72px;
@@ -1469,6 +1472,9 @@ body {
 }
 .skill__span {
   color: #000000;
+}
+.skill__mobileFooter {
+  display: none;
 }
 .skill__mainBlock {
   display: block;
@@ -2736,7 +2742,8 @@ body {
     padding-bottom: 126px;
   }
   .promise__name_2 {
-    padding-bottom: 834px;
+    padding-bottom: 842px;
+    width: 200px;
   }
   .promise__bigText_1 {
     padding-bottom: 32px;
@@ -3929,5 +3936,381 @@ body {
   }
   .promise__bigText_9 {
     padding-bottom: 40px;
+  }
+  .skill__main {
+    display: none;
+  }
+  .skill__sqlAbout {
+    width: 300px;
+  }
+  .skill__sql {
+    flex-direction: column;
+    padding-bottom: 285px;
+    gap: 16px;
+  }
+  .skill__sqlName {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .skill__sqlTitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .skill__sqlModule {
+    flex-direction: column;
+    gap: 0;
+  }
+  .skill__sqlBlock {
+    height: 758px;
+  }
+  .skill__first {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .skill__second {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    width: 300px;
+  }
+  .skill__special {
+    display: none;
+  }
+  .skill__sqlImg {
+    display: block;
+    top: 838px;
+  }
+  .skill__analysis {
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 32px;
+  }
+  .skill__analysisName {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    width: 300px;
+  }
+  .skill__analysisBlock {
+    height: 294px;
+  }
+  .skill__python {
+    gap: 16px;
+    flex-direction: column;
+    padding-bottom: 188px;
+  }
+  .skill__pythonWow {
+    display: block;
+    width: 282.53px;
+    height: 215.93px;
+    top: 504px;
+    left: 0;
+  }
+  .skill__pythonBlock {
+    height: 464px;
+  }
+  .skill__powerBI {
+    gap: 16px;
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
+  .skill__powerBIBlock {
+    height: 340px;
+  }
+  .skill__pythonStat {
+    gap: 16px;
+    flex-direction: column;
+    padding-bottom: 241px;
+  }
+  .skill__pythonStatAbout {
+    width: 300px;
+  }
+  .skill__tabletPythonStatName {
+    display: none;
+  }
+  .skill__pythonStatName {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .skill__pythonStatBlock {
+    height: 471px;
+  }
+  .skill__analytics {
+    gap: 16px;
+    flex-direction: column;
+    padding-bottom: 24px;
+  }
+  .skill__pythonLastName {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .skill__analyticsBlock {
+    height: 262px;
+  }
+  .skill__tabletPythonStatImg {
+    display: none;
+  }
+  .skill__mobileTitle {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__mobileBlock {
+    display: block;
+  }
+  .skill__mobileText {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    letter-spacing: -0.6px;
+  }
+  .skill__mobileFirstBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+  .skill__mobileSecondBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #f9ebff;
+    width: 320px;
+    height: 388px;
+    padding: 16px 10px 24px 10px;
+  }
+  .skill__mobileTextAgain {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #6000c7;
+  }
+  .skill__mobileSpecialBlock {
+    display: flex;
+    flex-direction: column;
+    height: 317px;
+    justify-content: space-between;
+  }
+  .skill__mobileMark {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #6000c7;
+  }
+  .skill__mobileSpecialText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #6000c7;
+  }
+  .skill__mobileMegaSpecial {
+    display: flex;
+    gap: 8px;
+  }
+  .skill__tabletAllImg {
+    display: none;
+  }
+  .skill__mobileImgBlock {
+    height: 464px;
+    position: relative;
+  }
+  .skill__tabletAllImg {
+    display: none;
+  }
+  .skill__mobileFooter {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background: #ececec;
+    gap: 8px;
+    padding: 16px 10px;
+  }
+  .skill__footerTitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    width: 300px;
+  }
+  .skill__footerText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    width: 300px;
+  }
+  .skill__tabletFooter {
+    display: none;
+  }
+  .skill__footerTitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__footerInput {
+    width: 300px;
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+    height: 48px;
+    padding: 10px 32px 12px 12px;
+  }
+  .skill__footerInput::-moz-placeholder {
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__footerInput:-ms-input-placeholder {
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__footerInput::placeholder {
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__button {
+    display: flex;
+    width: 300px;
+    height: 48px;
+    padding: 14px 24px;
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__button::-moz-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__button:-ms-input-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__button::placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.05px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .skill__footerLast {
+    padding-top: 8px;
+  }
+  .skill__img {
+    position: absolute;
+  }
+  .skill__img_1 {
+    left: 13.3%;
+    top: 16px;
+  }
+  .skill__img_2 {
+    left: 23.1%;
+    top: 77px;
+  }
+  .skill__img_3 {
+    left: 9.1%;
+    top: 184px;
+  }
+  .skill__img_4 {
+    left: 0.28%;
+    top: 188.1px;
+  }
+  .skill__img_5 {
+    left: 53%;
+    top: 267px;
+  }
+  .skill__img_6 {
+    left: 43.5%;
+    top: 352px;
+  }
+  .skill__tabletImg {
+    top: 3207px;
+    left: 13.1%;
   }
 }/*# sourceMappingURL=style.css.map */
