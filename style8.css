@@ -4,6 +4,9 @@
 .skill__block {
   padding-top: 153px;
 }
+.skill__mobileBlock {
+  display: none;
+}
 .skill__title {
   font-weight: 400;
   font-size: 72px;
@@ -16,6 +19,9 @@
 }
 .skill__span {
   color: #000000;
+}
+.skill__mobileFooter {
+  display: none;
 }
 .skill__mainBlock {
   display: block;

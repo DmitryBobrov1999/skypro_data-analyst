@@ -843,4 +843,338 @@
 			}
 		}
 	}
+
+	.skill {
+		&__main {
+			display: none;
+		}
+		&__sqlAbout {
+			width: 300px;
+		}
+		&__sql {
+			flex-direction: column;
+			padding-bottom: 285px;
+			gap: 16px;
+		}
+
+		&__sqlName {
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+		}
+		&__sqlTitle {
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__sqlModule {
+			flex-direction: column;
+			gap: 0;
+		}
+		&__sqlBlock {
+			height: 758px;
+		}
+		&__first {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__second {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			width: 300px;
+		}
+		&__special {
+			display: none;
+		}
+		&__sqlImg {
+			display: block;
+			top: 838px;
+		}
+		&__analysis {
+			flex-direction: column;
+			gap: 16px;
+			padding-bottom: 32px;
+		}
+		&__analysisName {
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+			width: 300px;
+		}
+		&__analysisBlock {
+			height: 294px;
+		}
+		&__python {
+			gap: 16px;
+			flex-direction: column;
+			padding-bottom: 188px;
+		}
+		&__pythonWow {
+			display: block;
+			width: 282.53px;
+			height: 215.93px;
+			top: 504px;
+			left: 0;
+		}
+
+		&__pythonBlock {
+			height: 464px;
+		}
+		&__powerBI {
+			gap: 16px;
+			flex-direction: column;
+			padding-bottom: 32px;
+		}
+		&__powerBIBlock {
+			height: 340px;
+		}
+		&__pythonStat {
+			gap: 16px;
+			flex-direction: column;
+			padding-bottom: 241px;
+		}
+		&__pythonStatAbout {
+			width: 300px;
+		}
+		&__tabletPythonStatName {
+			display: none;
+		}
+		&__pythonStatName {
+			display: block;
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+		}
+		&__pythonStatBlock {
+			height: 471px;
+		}
+		&__analytics {
+			gap: 16px;
+			flex-direction: column;
+			padding-bottom: 24px;
+		}
+		&__pythonLastName {
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+		}
+		&__analyticsBlock {
+			height: 262px;
+		}
+		&__tabletPythonStatImg {
+			display: none;
+		}
+		&__mobileTitle {
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 105%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+		}
+		&__mobileBlock {
+			display: block;
+		}
+		&__mobileText {
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 135%;
+			letter-spacing: -0.6px;
+		}
+		&__mobileFirstBlock {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+			padding-top: 32px;
+			padding-bottom: 16px;
+		}
+		&__mobileSecondBlock {
+			display: flex;
+			flex-direction: column;
+			gap: 8px;
+			background: #f9ebff;
+			width: 320px;
+			height: 388px;
+			padding: 16px 10px 24px 10px;
+		}
+		&__mobileTextAgain {
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 130%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #6000c7;
+		}
+		&__mobileSpecialBlock {
+			display: flex;
+			flex-direction: column;
+			height: 317px;
+			justify-content: space-between;
+		}
+		&__mobileMark {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #6000c7;
+		}
+		&__mobileSpecialText {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #6000c7;
+		}
+		&__mobileMegaSpecial {
+			display: flex;
+			gap: 8px;
+		}
+		&__tabletAllImg {
+			display: none;
+		}
+		&__mobileImgBlock {
+			height: 464px;
+			position: relative;
+		}
+
+		&__tabletAllImg {
+			display: none;
+		}
+		&__mobileFooter {
+			display: flex;
+			flex-direction: column;
+			width: 320px;
+			background: #ececec;
+			gap: 8px;
+			padding: 16px 10px;
+		}
+		&__footerTitle {
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+			width: 300px;
+		}
+		&__footerText {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+			width: 300px;
+		}
+		&__tabletFooter {
+			display: none;
+		}
+		&__footerTitle {
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+		}
+		&__footerInput {
+			width: 300px;
+			font-family: 'StratosSkyeng';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+			height: 48px;
+			padding: 10px 32px 12px 12px;
+			&::placeholder {
+				font-family: 'StratosSkyeng';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 145%;
+				letter-spacing: -0.05px;
+				font-feature-settings: 'pnum' on, 'lnum' on;
+				color: #000000;
+			}
+		}
+		&__button {
+			display: flex;
+			width: 300px;
+			height: 48px;
+			padding: 14px 24px;
+			font-family: 'StratosSkyeng';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 130%;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			letter-spacing: -0.05px;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: #000000;
+			&::placeholder {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-family: 'StratosSkyeng';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 130%;
+				text-align: center;
+				letter-spacing: -0.05px;
+				font-feature-settings: 'pnum' on, 'lnum' on;
+				color: #000000;
+			}
+		}
+		&__footerLast {
+			padding-top: 8px;
+		}
+		&__img {
+			position: absolute;
+			&_1 {
+				left: 13.3%;
+				top: 16px;
+			}
+			&_2 {
+				left: 23.1%;
+				top: 77px;
+			}
+			&_3 {
+				left: 9.1%;
+				top: 184px;
+			}
+			&_4 {
+				left: 0.28%;
+				top: 188.1px;
+			}
+			&_5 {
+				left: 53%;
+				top: 267px;
+			}
+			&_6 {
+				left: 43.5%;
+				top: 352px;
+			}
+		}
+		&__tabletImg {
+			top: 3207px;
+			left: 13.1%;
+		}
+	}
 }
