@@ -2596,6 +2596,8 @@ body {
     display: block;
   }
   .all__tabletBlock {
+    position: relative;
+    left: -10px;
     width: 640px;
     display: flex;
     flex-direction: column;
@@ -2723,6 +2725,8 @@ body {
     display: none;
   }
   .promise__tabletMegaBlock {
+    position: relative;
+    left: -10px;
     display: flex;
     width: 640px;
     padding: 32px 12px 40px 10px;
@@ -3113,8 +3117,8 @@ body {
 }
 @media (max-width: 767px) {
   .center {
-    padding-left: calc(50% - 160px);
-    padding-right: calc(50% - 160px);
+    padding-left: calc(50% - 150px);
+    padding-right: calc(50% - 150px);
   }
   .header {
     height: 753px;
@@ -3494,10 +3498,16 @@ body {
     padding-bottom: 22px;
   }
   .info__footer {
+    position: relative;
+    left: -10px;
     width: 320px;
     padding: 16px 10px;
     margin-bottom: 40px;
     border-radius: 0;
+    background: #ececec;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .info__footerTitle {
     font-family: "StratosSkyeng";
@@ -3530,6 +3540,8 @@ body {
     padding-left: 0;
   }
   .all__workshop {
+    position: relative;
+    left: -10px;
     padding: 16px 10px;
     gap: 16px;
     display: flex;
@@ -3671,6 +3683,8 @@ body {
     display: block;
   }
   .all__mobileBlock {
+    position: relative;
+    left: -10px;
     display: flex;
     flex-direction: column;
     width: 320px;
@@ -3796,6 +3810,8 @@ body {
     margin-top: 8px;
   }
   .teacher__block {
+    position: relative;
+    left: -10px;
     width: 320px;
     height: 399px;
     padding: 16px 10px;
@@ -3879,8 +3895,8 @@ body {
     display: block;
     position: absolute;
     bottom: 0;
-    left: 61%;
-    right: 39%;
+    left: 58%;
+    right: 42%;
     z-index: 1;
   }
   .promise__miniBlock {
@@ -3890,6 +3906,8 @@ body {
     display: none;
   }
   .promise__mobileMegaBlock {
+    position: relative;
+    left: -10px;
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -4088,6 +4106,8 @@ body {
     padding-bottom: 16px;
   }
   .skill__mobileSecondBlock {
+    position: relative;
+    left: -10px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -4141,6 +4161,8 @@ body {
     display: none;
   }
   .skill__mobileFooter {
+    position: relative;
+    left: -10px;
     display: flex;
     flex-direction: column;
     width: 320px;
