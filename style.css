@@ -4365,4 +4365,146 @@ body {
     gap: 24px;
     padding-bottom: 24px;
   }
+  .price {
+    background: white;
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+  .price__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    padding-bottom: 24px;
+  }
+  .price__block {
+    padding: 0;
+    width: 320px;
+  }
+  .price__mainText {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .price__notMainText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    width: 224px;
+  }
+  .price__mainPrice {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .price__notMainPrice {
+    flex-direction: column-reverse;
+    gap: 4.95px;
+  }
+  .price__discountPrice {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .price__discount {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .price__line {
+    left: -5%;
+    top: 3.04px;
+  }
+  .price__miniBlock {
+    gap: 9px;
+    justify-content: flex-start;
+  }
+  .price__addText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+    width: 300px;
+  }
+  .price__input {
+    width: 300px;
+    height: 48px;
+    padding: 10px 32px 12px 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .price__input::-moz-placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .price__input:-ms-input-placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .price__input::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .price__button {
+    width: 300px;
+    height: 48px;
+    padding: 14px 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.05px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .price__button::-moz-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.05px;
+  }
+  .price__button:-ms-input-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.05px;
+  }
+  .price__button::placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.05px;
+  }
+  .price__lastText {
+    width: 215px;
+  }
+  .price__form {
+    padding-bottom: 8px;
+  }
 }/*# sourceMappingURL=style.css.map */

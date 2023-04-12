@@ -1231,6 +1231,116 @@
 			gap: 24px;
 			padding-bottom: 24px;
 		}
-		
+	}
+
+	.price {
+		background: white;
+		padding-top: 32px;
+		padding-bottom: 16px;
+		&__title {
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 105%;
+			letter-spacing: -0.05px;
+			padding-bottom: 24px;
+		}
+		&__block {
+			padding: 0;
+			width: 320px;
+		}
+		&__mainText {
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+		}
+		&__notMainText {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			width: 224px;
+		}
+		&__mainPrice {
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 125%;
+			letter-spacing: -0.6px;
+		}
+		&__notMainPrice {
+			flex-direction: column-reverse;
+			gap: 4.95px;
+		}
+		&__discountPrice {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__discount {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__line {
+			left: -5%;
+			top: 3.04px;
+		}
+		&__miniBlock {
+			gap: 9px;
+			justify-content: flex-start;
+		}
+		&__addText {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			width: 300px;
+		}
+		&__input {
+			width: 300px;
+			height: 48px;
+			padding: 10px 32px 12px 12px;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+			&::placeholder {
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 145%;
+				letter-spacing: -0.05px;
+			}
+		}
+		&__button {
+			width: 300px;
+			height: 48px;
+			padding: 14px 24px;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 130%;
+			text-align: center;
+			letter-spacing: -0.05px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			&::placeholder {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 130%;
+				text-align: center;
+				letter-spacing: -0.05px;
+			}
+		}
+		&__lastText {
+			width: 215px;
+		}
+		&__form {
+			padding-bottom: 8px;
+		}
 	}
 }
