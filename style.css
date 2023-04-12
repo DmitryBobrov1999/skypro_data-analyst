@@ -4507,4 +4507,39 @@ body {
   .price__form {
     padding-bottom: 8px;
   }
+  .directions__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+  }
+  .directions__mainText {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.6px;
+  }
+  .directions__notMainText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .directions__miniBlock {
+    width: 300px;
+  }
+  .directions__block {
+    gap: 24px;
+    padding-bottom: 56px;
+  }
+  .directions__smallBlock {
+    gap: 24px;
+  }
+  .directions__link {
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-bottom: 8px;
+  }
 }/*# sourceMappingURL=style.css.map */
