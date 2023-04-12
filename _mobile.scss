@@ -1381,4 +1381,12 @@
 			padding-bottom: 8px;
 		}
 	}
+
+	.footer {
+		gap: 16px;
+		padding-top: 16px;
+		&__other {
+			gap: 8px;
+		}
+	}
 }

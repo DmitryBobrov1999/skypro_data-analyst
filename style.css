@@ -4542,4 +4542,11 @@ body {
     gap: 24px;
     padding-bottom: 8px;
   }
+  .footer {
+    gap: 16px;
+    padding-top: 16px;
+  }
+  .footer__other {
+    gap: 8px;
+  }
 }/*# sourceMappingURL=style.css.map */
