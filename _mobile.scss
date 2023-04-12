@@ -1177,4 +1177,60 @@
 			left: 13.1%;
 		}
 	}
+
+	.comment {
+		&__title {
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 105%;
+			letter-spacing: -0.05px;
+			padding-bottom: 24px;
+			padding-top: 32px;
+		}
+		&__sign {
+			width: 24px;
+			height: 19.68px;
+		}
+		&__text {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__smallBlock {
+			gap: 8px;
+			&_order1 {
+				order: 0;
+			}
+		}
+		&__whoIs {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__name {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__link {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 145%;
+			letter-spacing: -0.05px;
+		}
+		&__miniBlock {
+			width: 268px;
+		}
+		&__block {
+			gap: 24px;
+		}
+		&__bigBlock {
+			gap: 24px;
+			padding-bottom: 24px;
+		}
+		
+	}
 }

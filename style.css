@@ -4313,4 +4313,56 @@ body {
     top: 3207px;
     left: 13.1%;
   }
+  .comment__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 105%;
+    letter-spacing: -0.05px;
+    padding-bottom: 24px;
+    padding-top: 32px;
+  }
+  .comment__sign {
+    width: 24px;
+    height: 19.68px;
+  }
+  .comment__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .comment__smallBlock {
+    gap: 8px;
+  }
+  .comment__smallBlock_order1 {
+    order: 0;
+  }
+  .comment__whoIs {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .comment__name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .comment__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.05px;
+  }
+  .comment__miniBlock {
+    width: 268px;
+  }
+  .comment__block {
+    gap: 24px;
+  }
+  .comment__bigBlock {
+    gap: 24px;
+    padding-bottom: 24px;
+  }
 }/*# sourceMappingURL=style.css.map */
